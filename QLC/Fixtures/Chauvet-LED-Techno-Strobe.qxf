@@ -1,0 +1,42 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-1-r2457</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>Chauvet</Manufacturer>
+ <Model>LED Techno Strobe (ST-3000LED)</Model>
+ <Type>Strobe</Type>
+ <Channel Name="Mode">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="39">Dimmer / Strobe Mode</Capability>
+  <Capability Min="40" Max="79">Program 1</Capability>
+  <Capability Min="80" Max="119">Program 2</Capability>
+  <Capability Min="120" Max="159">Program 3</Capability>
+  <Capability Min="160" Max="199">Program 4</Capability>
+  <Capability Min="200" Max="239">Program 5</Capability>
+  <Capability Min="240" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="239">Slow -> Fast</Capability>
+  <Capability Min="240" Max="255">No Function</Capability>
+ </Channel>
+ <Channel Name="Intensity">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">100% -> 0%</Capability>
+ </Channel>
+ <Mode Name="3 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="8000"/>
+   <Dimensions Width="248" Height="165" Weight="2.2" Depth="356"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="12" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Mode</Channel>
+  <Channel Number="1">Strobe</Channel>
+  <Channel Number="2">Intensity</Channel>
+ </Mode>
+</FixtureDefinition>

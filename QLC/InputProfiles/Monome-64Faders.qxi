@@ -1,0 +1,266 @@
+<!DOCTYPE InputProfile>
+<InputProfile>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.1</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>Monome</Manufacturer>
+ <Model>64Faders</Model>
+ <Channel Number="10">
+  <Name>Slider 0-1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>Slider 0-2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="12">
+  <Name>Slider 0-3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="13">
+  <Name>Slider 0-4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>Slider 0-5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="15">
+  <Name>Slider 0-6</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>Slider 0-7</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Slider 0-8</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Slider 21</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Slider 22</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Slider 23</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Slider 24</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="24">
+  <Name>Slider 25</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="25">
+  <Name>Slider 26</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="26">
+  <Name>Slider 27</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="27">
+  <Name>Slider 28</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="30">
+  <Name>Slider 31</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="31">
+  <Name>Slider 32</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="32">
+  <Name>Slider 33</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="33">
+  <Name>Slider 34</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="34">
+  <Name>Slider 35</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="35">
+  <Name>Slider 36</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="36">
+  <Name>Slider 37</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="37">
+  <Name>Slider 38</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="40">
+  <Name>Slider 41</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="41">
+  <Name>Slider 42</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="42">
+  <Name>Slider 43</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="43">
+  <Name>Slider 44</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="44">
+  <Name>Slider 45</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="45">
+  <Name>Slider 46</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="46">
+  <Name>Slider 47</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="47">
+  <Name>Slider 48</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="50">
+  <Name>Slider 51</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="51">
+  <Name>Slider 52</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="52">
+  <Name>Slider 53</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="53">
+  <Name>Slider 54</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="54">
+  <Name>Slider 55</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="55">
+  <Name>Slider 56</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="56">
+  <Name>Slider 57</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="57">
+  <Name>Slider 58</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="60">
+  <Name>Slider 61</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="61">
+  <Name>Slider 62</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="62">
+  <Name>Slider 63</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="63">
+  <Name>Slider 64</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="64">
+  <Name>Slider 65</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="65">
+  <Name>Slider 66</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="66">
+  <Name>Slider 67</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="67">
+  <Name>Slider 68</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="70">
+  <Name>Slider 71</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="71">
+  <Name>Slider 72</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="72">
+  <Name>Slider 73</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="73">
+  <Name>Slider 74</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="74">
+  <Name>Slider 75</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="75">
+  <Name>Slider 76</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="76">
+  <Name>Slider 77</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="77">
+  <Name>Slider 78</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="80">
+  <Name>Slider 81</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="81">
+  <Name>Slider 82</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="82">
+  <Name>Slider 83</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="83">
+  <Name>Slider 84</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="84">
+  <Name>Slider 85</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="85">
+  <Name>Slider 86</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="86">
+  <Name>Slider 87</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="87">
+  <Name>Slider 88</Name>
+  <Type>Slider</Type>
+ </Channel>
+</InputProfile>

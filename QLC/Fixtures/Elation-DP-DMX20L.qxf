@@ -1,0 +1,73 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.1.0</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>Elation</Manufacturer>
+ <Model>DP-DMX20L</Model>
+ <Type>Dimmer</Type>
+ <Channel Name="Outlet 1 Switch">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="255" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Outlet 2 Switch">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="255" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Outlet 3 Switch">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="255" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Outlet 4 Switch">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="255" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Outlet 1 Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer Level</Capability>
+ </Channel>
+ <Channel Name="Outlet 2 Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer Level</Capability>
+ </Channel>
+ <Channel Name="Outlet 3 Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer Level</Capability>
+ </Channel>
+ <Channel Name="Outlet 4 Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer Level</Capability>
+ </Channel>
+ <Mode Name="4 Channel Switch">
+  <Physical>
+   <Bulb Lumens="0" Type="None" ColourTemperature="0"/>
+   <Dimensions Width="188" Height="71" Weight="2.4" Depth="212"/>
+   <Lens DegreesMax="0" Name="None" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Outlet 1 Switch</Channel>
+  <Channel Number="1">Outlet 2 Switch</Channel>
+  <Channel Number="2">Outlet 3 Switch</Channel>
+  <Channel Number="3">Outlet 4 Switch</Channel>
+ </Mode>
+ <Mode Name="4 Channel Dimmer">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Outlet 1 Dimmer</Channel>
+  <Channel Number="1">Outlet 2 Dimmer</Channel>
+  <Channel Number="2">Outlet 3 Dimmer</Channel>
+  <Channel Number="3">Outlet 4 Dimmer</Channel>
+ </Mode>
+</FixtureDefinition>

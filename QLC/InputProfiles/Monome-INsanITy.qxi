@@ -1,0 +1,114 @@
+<!DOCTYPE InputProfile>
+<InputProfile>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.1</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>Monome</Manufacturer>
+ <Model>INsanITy</Model>
+ <Channel Number="1">
+  <Name>Slider 2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="2">
+  <Name>Slider 3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>Slider 4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="4">
+  <Name>Slider 5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>Button 166</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>Button 167</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>Button 168</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="168">
+  <Name>Button 169</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="169">
+  <Name>Button 170</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="170">
+  <Name>Button 171</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="171">
+  <Name>Button 172</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="172">
+  <Name>Button 173</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="173">
+  <Name>Button 174</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="174">
+  <Name>Button 175</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="175">
+  <Name>Button 176</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="176">
+  <Name>Button 177</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="177">
+  <Name>Button 178</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="178">
+  <Name>Button 179</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="179">
+  <Name>Button 180</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="180">
+  <Name>Button 181</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="181">
+  <Name>Button 182</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="182">
+  <Name>Button 183</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="183">
+  <Name>Button 184</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="184">
+  <Name>Button 185</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="185">
+  <Name>Button 186</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="186">
+  <Name>Button 187</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>

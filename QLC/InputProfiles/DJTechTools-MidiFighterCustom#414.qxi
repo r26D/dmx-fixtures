@@ -1,12 +1,13 @@
 <!DOCTYPE InputProfile>
 <InputProfile>
  <Creator>
-  <Name>Q Light Controller</Name>
-  <Version>3.2.0-1-r2457</Version>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.1.3</Version>
   <Author>withlime</Author>
  </Creator>
  <Manufacturer>DJ Tech Tools</Manufacturer>
  <Model>Midi Fighter Custom #414</Model>
+ <Type>MIDI</Type>
  <Channel Number="16">
   <Name>Slider 1 Upper</Name>
   <Type>Slider</Type>

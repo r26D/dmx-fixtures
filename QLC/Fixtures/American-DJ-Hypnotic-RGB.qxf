@@ -1,0 +1,43 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.1</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>Hypnotic RGB</Model>
+ <Type>Laser</Type>
+ <Channel Name="Laser Color">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">OFF</Capability>
+  <Capability Min="8" Max="37">Red</Capability>
+  <Capability Min="38" Max="67">Red &amp; Green</Capability>
+  <Capability Min="68" Max="97">Green</Capability>
+  <Capability Min="98" Max="127">Green &amp; Blue</Capability>
+  <Capability Min="128" Max="157">Blue</Capability>
+  <Capability Min="158" Max="187">Red &amp; Blue</Capability>
+  <Capability Min="188" Max="217">Red &amp; Green &amp; Blue</Capability>
+  <Capability Min="218" Max="247">All Random</Capability>
+  <Capability Min="248" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Laser Rotation">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="9">No Rotation</Capability>
+  <Capability Min="10" Max="120">Counter-Clockwise Fast -> Slow</Capability>
+  <Capability Min="121" Max="134">No Rotation</Capability>
+  <Capability Min="135" Max="245">Clockwise Slow -> Fast</Capability>
+  <Capability Min="246" Max="255">No Rotation</Capability>
+ </Channel>
+ <Mode Name="2 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Laser Color</Channel>
+  <Channel Number="1">Laser Rotation</Channel>
+ </Mode>
+</FixtureDefinition>
