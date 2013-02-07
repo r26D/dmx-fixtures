@@ -1,0 +1,158 @@
+<!DOCTYPE InputProfile>
+<InputProfile>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-1-r2575</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>DJTechTools</Manufacturer>
+ <Model>MF #414</Model>
+ <Channel Number="16">
+  <Name>Slider 17</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Slider 18</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Slider 19</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Slider 20</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Slider 21</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Slider 22</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Slider 23</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Slider 24</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="100">
+  <Name>Button 101</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="101">
+  <Name>Button 102</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="102">
+  <Name>Button 103</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="103">
+  <Name>Button 104</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="104">
+  <Name>Button 105</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="106">
+  <Name>Button 107</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="107">
+  <Name>Button 108</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="132">
+  <Name>Button 133</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="133">
+  <Name>Button 134</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="134">
+  <Name>Button 135</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="135">
+  <Name>Button 136</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="164">
+  <Name>Button 165</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>Button 166</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>Button 167</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>Button 168</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="168">
+  <Name>Button 169</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="169">
+  <Name>Button 170</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="170">
+  <Name>Button 171</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="171">
+  <Name>Button 172</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="172">
+  <Name>Button 173</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="173">
+  <Name>Button 174</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="174">
+  <Name>Button 175</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="175">
+  <Name>Button 176</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="176">
+  <Name>Button 177</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="177">
+  <Name>Button 178</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="178">
+  <Name>Button 179</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="179">
+  <Name>Button 180</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="228">
+  <Name>Button 229</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="230">
+  <Name>Button 231</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>

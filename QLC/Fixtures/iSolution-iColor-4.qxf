@@ -1,0 +1,84 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.0.4</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>iSolution</Manufacturer>
+ <Model>iColor 4</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Color" >
+  <Group Byte="0" >Colour</Group>
+  <Capability Min="0" Max="6" >Color 1</Capability>
+  <Capability Min="7" Max="13" >Color 2</Capability>
+  <Capability Min="14" Max="20" >Color 3</Capability>
+  <Capability Min="21" Max="27" >Color 4</Capability>
+  <Capability Min="28" Max="34" >Color 5</Capability>
+  <Capability Min="35" Max="41" >Color 6</Capability>
+  <Capability Min="42" Max="48" >Color 7</Capability>
+  <Capability Min="49" Max="55" >Color 8</Capability>
+  <Capability Min="56" Max="62" >Color 9</Capability>
+  <Capability Min="63" Max="69" >Color 10</Capability>
+  <Capability Min="70" Max="76" >Color 11</Capability>
+  <Capability Min="77" Max="83" >Color 12</Capability>
+  <Capability Min="84" Max="90" >Color 13</Capability>
+  <Capability Min="91" Max="97" >Color 14</Capability>
+  <Capability Min="98" Max="104" >Color 15</Capability>
+  <Capability Min="105" Max="111" >Color 16</Capability>
+  <Capability Min="112" Max="118" >Color 17</Capability>
+  <Capability Min="119" Max="125" >Color 18</Capability>
+  <Capability Min="126" Max="132" >Color 19</Capability>
+  <Capability Min="133" Max="139" >Color 20</Capability>
+  <Capability Min="140" Max="146" >Color 21</Capability>
+  <Capability Min="147" Max="153" >Color 22</Capability>
+  <Capability Min="154" Max="160" >Color 23</Capability>
+  <Capability Min="161" Max="167" >Color 24</Capability>
+  <Capability Min="168" Max="174" >Color 25</Capability>
+  <Capability Min="175" Max="181" >Color 26</Capability>
+  <Capability Min="182" Max="188" >Color 27</Capability>
+  <Capability Min="189" Max="195" >Color 28</Capability>
+  <Capability Min="196" Max="202" >Color 29</Capability>
+  <Capability Min="203" Max="209" >Color 30</Capability>
+  <Capability Min="210" Max="216" >Color 31</Capability>
+  <Capability Min="217" Max="223" >Color 32</Capability>
+  <Capability Min="224" Max="239" >Color Fade</Capability>
+  <Capability Min="240" Max="255" >Color Chase</Capability>
+ </Channel>
+ <Channel Name="Chase" >
+  <Group Byte="0" >Effect</Group>
+  <Capability Min="0" Max="20" >Standard R-G-Y-B</Capability>
+  <Capability Min="21" Max="41" >Bright R-Y-O-C</Capability>
+  <Capability Min="42" Max="62" >Mood P-B-G-dR</Capability>
+  <Capability Min="63" Max="83" >Spectrum Random</Capability>
+  <Capability Min="84" Max="104" >Spectrum Sequence</Capability>
+  <Capability Min="105" Max="125" >Dynamic</Capability>
+  <Capability Min="126" Max="146" >R-GB</Capability>
+  <Capability Min="147" Max="167" >G-BR</Capability>
+  <Capability Min="168" Max="188" >B-R</Capability>
+  <Capability Min="189" Max="209" >Y-B</Capability>
+  <Capability Min="210" Max="230" >R-G</Capability>
+  <Capability Min="231" Max="255" >Y-G</Capability>
+ </Channel>
+ <Channel Name="Speed" >
+  <Group Byte="0" >Speed</Group>
+  <Capability Min="0" Max="255" >Slow -> Fast</Capability>
+ </Channel>
+ <Channel Name="Master" >
+  <Group Byte="0" >Intensity</Group>
+  <Capability Min="0" Max="255" >0 - 100%</Capability>
+ </Channel>
+ <Mode Name="4 Channel" >
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0" />
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0" />
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0" />
+   <Focus PanMax="0" Type="Fixed" TiltMax="0" />
+  </Physical>
+  <Channel Number="0" >Color</Channel>
+  <Channel Number="1" >Chase</Channel>
+  <Channel Number="2" >Speed</Channel>
+  <Channel Number="3" >Master</Channel>
+ </Mode>
+</FixtureDefinition>
+

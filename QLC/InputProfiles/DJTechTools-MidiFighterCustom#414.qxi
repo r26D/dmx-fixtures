@@ -1,0 +1,162 @@
+<!DOCTYPE InputProfile>
+<InputProfile>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-1-r2457</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>DJ Tech Tools</Manufacturer>
+ <Model>Midi Fighter Custom #414</Model>
+ <Channel Number="16">
+  <Name>Slider 1 Upper</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Slider 1 Lower</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Slider 2 Upper</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Slider 2 Lower</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Knob 1 Lower</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Knob 1 Upper</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Knob 2 Lower</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Knob 2 Upper</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="100">
+  <Name>Slider 1 Max</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="101">
+  <Name>Slider 1 Min</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="102">
+  <Name>Slider 2 Max</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="103">
+  <Name>Slider 2 Min</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="104">
+  <Name>Knob 1 Min</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="105">
+  <Name>Knob 1 Max</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="106">
+  <Name>Knob 2 Min</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="107">
+  <Name>Knob 2 Max</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="132">
+  <Name>Button 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="133">
+  <Name>Button 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="134">
+  <Name>Button 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="135">
+  <Name>Button 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="164">
+  <Name>Button 4 x 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>Button 4 x 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>Button 4 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>Button 4 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="168">
+  <Name>Button 3 x 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="169">
+  <Name>Button 3 x 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="170">
+  <Name>Button 3 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="171">
+  <Name>Button 3 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="172">
+  <Name>Button 2 x 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="173">
+  <Name>Button 2 x 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="174">
+  <Name>Button 2 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="175">
+  <Name>Button 2 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="176">
+  <Name>Button 1 x 1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="177">
+  <Name>Button 1 x 2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="178">
+  <Name>Button 1 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="179">
+  <Name>Button 1 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="229">
+  <Name>Slider 1 Min</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="231">
+  <Name>Slider 2 Min</Name>
+  <Type>Slider</Type>
+ </Channel>
+</InputProfile>

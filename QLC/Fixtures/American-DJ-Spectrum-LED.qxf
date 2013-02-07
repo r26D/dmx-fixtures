@@ -1,0 +1,65 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.1.0</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>Spectrum LED</Model>
+ <Type>Flower</Type>
+ <Channel Name="Program">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">Program 1</Capability>
+  <Capability Min="10" Max="19">Program 2</Capability>
+  <Capability Min="20" Max="29">Program 3</Capability>
+  <Capability Min="30" Max="39">Program 4</Capability>
+  <Capability Min="40" Max="49">Program 5</Capability>
+  <Capability Min="50" Max="59">Program 6</Capability>
+  <Capability Min="60" Max="69">Program 7</Capability>
+  <Capability Min="70" Max="79">Program 8</Capability>
+  <Capability Min="80" Max="89">Program 9</Capability>
+  <Capability Min="90" Max="99">Program 10</Capability>
+  <Capability Min="100" Max="109">Program 11</Capability>
+  <Capability Min="110" Max="119">Program 12</Capability>
+  <Capability Min="120" Max="129">Program 13</Capability>
+  <Capability Min="130" Max="139">Program 14</Capability>
+  <Capability Min="140" Max="149">Program 15</Capability>
+  <Capability Min="150" Max="159">Program 16</Capability>
+  <Capability Min="160" Max="160">Program 17</Capability>
+  <Capability Min="170" Max="179">Program 18</Capability>
+  <Capability Min="180" Max="189">Program 19</Capability>
+  <Capability Min="190" Max="199">Program 20</Capability>
+  <Capability Min="200" Max="209">Program 21</Capability>
+  <Capability Min="210" Max="219">Program 22</Capability>
+  <Capability Min="220" Max="229">Program 23</Capability>
+  <Capability Min="230" Max="239">Program 24</Capability>
+  <Capability Min="240" Max="249">Program 25</Capability>
+  <Capability Min="250" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Program Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Slow -> Fast</Capability>
+ </Channel>
+ <Channel Name="Strobe Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Slow -> Fast</Capability>
+ </Channel>
+ <Channel Name="Sound Sensitivity">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Least -> Most Sensitive</Capability>
+ </Channel>
+ <Mode Name="4 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="228" Height="127" Weight="3.4" Depth="177"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="30" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Program</Channel>
+  <Channel Number="1">Program Speed</Channel>
+  <Channel Number="2">Strobe Speed</Channel>
+  <Channel Number="3">Sound Sensitivity</Channel>
+ </Mode>
+</FixtureDefinition>

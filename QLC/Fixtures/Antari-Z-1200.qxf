@@ -1,0 +1,27 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.0.1</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>Antari</Manufacturer>
+ <Model>Z-1200</Model>
+ <Type>Smoke</Type>
+ <Channel Name="Output Volume" >
+  <Group Byte="0" >Intensity</Group>
+  <Capability Min="0" Max="5" >Off</Capability>
+  <Capability Min="6" Max="249" >5- 95% Output Volume</Capability>
+  <Capability Min="250" Max="255" >100% Maximum Output Volume</Capability>
+ </Channel>
+ <Mode Name="1 Channel" >
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0" />
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0" />
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0" />
+   <Focus PanMax="0" Type="Fixed" TiltMax="0" />
+  </Physical>
+  <Channel Number="0" >Output Volume</Channel>
+ </Mode>
+</FixtureDefinition>
+

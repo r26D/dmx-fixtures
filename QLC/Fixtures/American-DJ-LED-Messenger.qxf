@@ -1,0 +1,55 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.1.0</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>LED Messenger</Model>
+ <Type>Flower</Type>
+ <Channel Name="Programs">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="12">Off</Capability>
+  <Capability Min="13" Max="25">Phrase Program</Capability>
+  <Capability Min="26" Max="38">Program 2</Capability>
+  <Capability Min="39" Max="51">Program 3</Capability>
+  <Capability Min="52" Max="64">Program 4</Capability>
+  <Capability Min="65" Max="77">Program 5</Capability>
+  <Capability Min="78" Max="90">Program 6</Capability>
+  <Capability Min="91" Max="103">Program 7</Capability>
+  <Capability Min="104" Max="116">Program 8</Capability>
+  <Capability Min="117" Max="129">Program 9</Capability>
+  <Capability Min="130" Max="142">Program 10</Capability>
+  <Capability Min="143" Max="155">Program 11</Capability>
+  <Capability Min="156" Max="168">Program 12</Capability>
+  <Capability Min="169" Max="181">Program 13</Capability>
+  <Capability Min="182" Max="194">Program 14</Capability>
+  <Capability Min="195" Max="207">Program 15</Capability>
+  <Capability Min="208" Max="220">Program 16</Capability>
+  <Capability Min="221" Max="233">Program 17</Capability>
+  <Capability Min="234" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Speed/Sound Sensitivity">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="12">No Function</Capability>
+  <Capability Min="13" Max="255">Speed Slow -> Fast / Sound Sensitivity Least -> Most</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="12">No Function</Capability>
+  <Capability Min="13" Max="255">Slow -> Fast</Capability>
+ </Channel>
+ <Mode Name="3 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="230" Height="230" Weight="6.8" Depth="320"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="55" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Programs</Channel>
+  <Channel Number="1">Speed/Sound Sensitivity</Channel>
+  <Channel Number="2">Strobe</Channel>
+ </Mode>
+</FixtureDefinition>

@@ -1,0 +1,1614 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-1-r2449</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>Revo 4</Model>
+ <Type>Flower</Type>
+ <Channel Name="Function">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">OFF</Capability>
+  <Capability Min="10" Max="99">Pattern</Capability>
+  <Capability Min="100" Max="239">Chase</Capability>
+  <Capability Min="240" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Chase/Pattern">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="20">Pattern/Chase 1</Capability>
+  <Capability Min="21" Max="41">Pattern/Chase 2</Capability>
+  <Capability Min="42" Max="65">Pattern/Chase 3</Capability>
+  <Capability Min="66" Max="87">Pattern/Chase 4</Capability>
+  <Capability Min="88" Max="108">Pattern/Chase 5</Capability>
+  <Capability Min="109" Max="129">Pattern/Chase 6</Capability>
+  <Capability Min="130" Max="150">Pattern/Chase 7</Capability>
+  <Capability Min="151" Max="172">Pattern/Chase 8</Capability>
+  <Capability Min="173" Max="193">Pattern/Chase 9</Capability>
+  <Capability Min="194" Max="214">Pattern/Chase 10</Capability>
+  <Capability Min="215" Max="235">Pattern/Chase 11</Capability>
+  <Capability Min="236" Max="255">Pattern/Chase 12</Capability>
+ </Channel>
+ <Channel Name="Color/Chase Speed">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="17">Red                 Slowest Chase</Capability>
+  <Capability Min="18" Max="34">Green</Capability>
+  <Capability Min="35" Max="51">Blue</Capability>
+  <Capability Min="52" Max="68">White</Capability>
+  <Capability Min="69" Max="85">R + G</Capability>
+  <Capability Min="86" Max="102">R + B</Capability>
+  <Capability Min="103" Max="119">R + W</Capability>
+  <Capability Min="120" Max="136">G + B</Capability>
+  <Capability Min="137" Max="153">G +W</Capability>
+  <Capability Min="154" Max="170">B + W</Capability>
+  <Capability Min="171" Max="187">R+ G + B</Capability>
+  <Capability Min="188" Max="204">R + G + W</Capability>
+  <Capability Min="205" Max="221">R + B + W</Capability>
+  <Capability Min="222" Max="238">G + B + W</Capability>
+  <Capability Min="239" Max="255">R + G + B + W       Fastest Chase</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">Stop</Capability>
+  <Capability Min="10" Max="255">Slow -> Fast</Capability>
+ </Channel>
+ <Channel Name="LED 1 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 2 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 3 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 4 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 5 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 6 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 7 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 8 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 9 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 10 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 11 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 12 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 13 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 14 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 15 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 16 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 17 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 18 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 19 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 20 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 21 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 22 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 23 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 24 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 25 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 26 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 27 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 28 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 29 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 30 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 31 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 32 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 33 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 34 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 35 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 36 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 37 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 38 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 39 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 40 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 41 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 42 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 43 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 44 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 45 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 46 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 47 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 48 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 49 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 50 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 51 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 52 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 53 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 54 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 55 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 56 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 57 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 58 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 59 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 60 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 61 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 62 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 63 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 64 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 65 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 66 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 67 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 68 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 69 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 70 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 71 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 72 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 73 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 74 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 75 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 76 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 77 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 78 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 79 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 80 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 81 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 82 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 83 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 84 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 85 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 86 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 87 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 88 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 89 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 90 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 91 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 92 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 93 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 94 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 95 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 96 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 97 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 98 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 99 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 100 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 101 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 102 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 103 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 104 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 105 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 106 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 107 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 108 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 109 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 110 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 111 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 112 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 113 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 114 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 115 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 116 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 117 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 118 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 119 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 120 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 121 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 122 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 123 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 124 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 125 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 126 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 127 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 128 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 129 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 130 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 131 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 132 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 133 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 134 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 135 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 136 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 137 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 138 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 139 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 140 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 141 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 142 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 143 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 144 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 145 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 146 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 147 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 148 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 149 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 150 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 151 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 152 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 153 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 154 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 155 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 156 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 157 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 158 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 159 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 160 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 161 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 162 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 163 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 164 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 165 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 166 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 167 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 168 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 169 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 170 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 171 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 172 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 173 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 174 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 175 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 176 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 177 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 178 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 179 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 180 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 181 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 182 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 183 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 184 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 185 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 186 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 187 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 188 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 189 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 190 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 191 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 192 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 193 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 194 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 195 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 196 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 197 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 198 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 199 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 200 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 201 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 202 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 203 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 204 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 205 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 206 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 207 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 208 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 209 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 210 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 211 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 212 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 213 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 214 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 215 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 216 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 217 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 218 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 219 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 220 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 221 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 222 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 223 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 224 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 225 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 226 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 227 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 228 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 229 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 230 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 231 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 232 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 233 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 234 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 235 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 236 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 237 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 238 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 239 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 240 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 241 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 242 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 243 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 244 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 245 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 246 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 247 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 248 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 249 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 250 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 251 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 252 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 253 Red">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 254 Green">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 255 Blue">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="LED 256 White">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="127">Off</Capability>
+  <Capability Min="128" Max="255">On</Capability>
+ </Channel>
+ <Mode Name="4 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Function</Channel>
+  <Channel Number="1">Chase/Pattern</Channel>
+  <Channel Number="2">Color/Chase Speed</Channel>
+  <Channel Number="3">Strobe</Channel>
+ </Mode>
+ <Mode Name="256 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">LED 1 Red</Channel>
+  <Channel Number="1">LED 2 Green</Channel>
+  <Channel Number="2">LED 3 Blue</Channel>
+  <Channel Number="3">LED 4 White</Channel>
+  <Channel Number="4">LED 5 Red</Channel>
+  <Channel Number="5">LED 6 Green</Channel>
+  <Channel Number="6">LED 7 Blue</Channel>
+  <Channel Number="7">LED 8 White</Channel>
+  <Channel Number="8">LED 9 Red</Channel>
+  <Channel Number="9">LED 10 Green</Channel>
+  <Channel Number="10">LED 11 Blue</Channel>
+  <Channel Number="11">LED 12 White</Channel>
+  <Channel Number="12">LED 13 Red</Channel>
+  <Channel Number="13">LED 14 Green</Channel>
+  <Channel Number="14">LED 15 Blue</Channel>
+  <Channel Number="15">LED 16 White</Channel>
+  <Channel Number="16">LED 17 Red</Channel>
+  <Channel Number="17">LED 18 Green</Channel>
+  <Channel Number="18">LED 19 Blue</Channel>
+  <Channel Number="19">LED 20 White</Channel>
+  <Channel Number="20">LED 21 Red</Channel>
+  <Channel Number="21">LED 22 Green</Channel>
+  <Channel Number="22">LED 23 Blue</Channel>
+  <Channel Number="23">LED 24 White</Channel>
+  <Channel Number="24">LED 25 Red</Channel>
+  <Channel Number="25">LED 26 Green</Channel>
+  <Channel Number="26">LED 27 Blue</Channel>
+  <Channel Number="27">LED 28 White</Channel>
+  <Channel Number="28">LED 29 Red</Channel>
+  <Channel Number="29">LED 30 Green</Channel>
+  <Channel Number="30">LED 31 Blue</Channel>
+  <Channel Number="31">LED 32 White</Channel>
+  <Channel Number="32">LED 33 Red</Channel>
+  <Channel Number="33">LED 34 Green</Channel>
+  <Channel Number="34">LED 35 Blue</Channel>
+  <Channel Number="35">LED 36 White</Channel>
+  <Channel Number="36">LED 37 Red</Channel>
+  <Channel Number="37">LED 38 Green</Channel>
+  <Channel Number="38">LED 39 Blue</Channel>
+  <Channel Number="39">LED 40 White</Channel>
+  <Channel Number="40">LED 41 Red</Channel>
+  <Channel Number="41">LED 42 Green</Channel>
+  <Channel Number="42">LED 43 Blue</Channel>
+  <Channel Number="43">LED 44 White</Channel>
+  <Channel Number="44">LED 45 Red</Channel>
+  <Channel Number="45">LED 46 Green</Channel>
+  <Channel Number="46">LED 47 Blue</Channel>
+  <Channel Number="47">LED 48 White</Channel>
+  <Channel Number="48">LED 49 Red</Channel>
+  <Channel Number="49">LED 50 Green</Channel>
+  <Channel Number="50">LED 51 Blue</Channel>
+  <Channel Number="51">LED 52 White</Channel>
+  <Channel Number="52">LED 53 Red</Channel>
+  <Channel Number="53">LED 54 Green</Channel>
+  <Channel Number="54">LED 55 Blue</Channel>
+  <Channel Number="55">LED 56 White</Channel>
+  <Channel Number="56">LED 57 Red</Channel>
+  <Channel Number="57">LED 58 Green</Channel>
+  <Channel Number="58">LED 59 Blue</Channel>
+  <Channel Number="59">LED 60 White</Channel>
+  <Channel Number="60">LED 61 Red</Channel>
+  <Channel Number="61">LED 62 Green</Channel>
+  <Channel Number="62">LED 63 Blue</Channel>
+  <Channel Number="63">LED 64 White</Channel>
+  <Channel Number="64">LED 65 Red</Channel>
+  <Channel Number="65">LED 66 Green</Channel>
+  <Channel Number="66">LED 67 Blue</Channel>
+  <Channel Number="67">LED 68 White</Channel>
+  <Channel Number="68">LED 69 Red</Channel>
+  <Channel Number="69">LED 70 Green</Channel>
+  <Channel Number="70">LED 71 Blue</Channel>
+  <Channel Number="71">LED 72 White</Channel>
+  <Channel Number="72">LED 73 Red</Channel>
+  <Channel Number="73">LED 74 Green</Channel>
+  <Channel Number="74">LED 75 Blue</Channel>
+  <Channel Number="75">LED 76 White</Channel>
+  <Channel Number="76">LED 77 Red</Channel>
+  <Channel Number="77">LED 78 Green</Channel>
+  <Channel Number="78">LED 79 Blue</Channel>
+  <Channel Number="79">LED 80 White</Channel>
+  <Channel Number="80">LED 81 Red</Channel>
+  <Channel Number="81">LED 82 Green</Channel>
+  <Channel Number="82">LED 83 Blue</Channel>
+  <Channel Number="83">LED 84 White</Channel>
+  <Channel Number="84">LED 85 Red</Channel>
+  <Channel Number="85">LED 86 Green</Channel>
+  <Channel Number="86">LED 87 Blue</Channel>
+  <Channel Number="87">LED 88 White</Channel>
+  <Channel Number="88">LED 89 Red</Channel>
+  <Channel Number="89">LED 90 Green</Channel>
+  <Channel Number="90">LED 91 Blue</Channel>
+  <Channel Number="91">LED 92 White</Channel>
+  <Channel Number="92">LED 93 Red</Channel>
+  <Channel Number="93">LED 94 Green</Channel>
+  <Channel Number="94">LED 95 Blue</Channel>
+  <Channel Number="95">LED 96 White</Channel>
+  <Channel Number="96">LED 97 Red</Channel>
+  <Channel Number="97">LED 98 Green</Channel>
+  <Channel Number="98">LED 99 Blue</Channel>
+  <Channel Number="99">LED 100 White</Channel>
+  <Channel Number="100">LED 101 Red</Channel>
+  <Channel Number="101">LED 102 Green</Channel>
+  <Channel Number="102">LED 103 Blue</Channel>
+  <Channel Number="103">LED 104 White</Channel>
+  <Channel Number="104">LED 105 Red</Channel>
+  <Channel Number="105">LED 106 Green</Channel>
+  <Channel Number="106">LED 107 Blue</Channel>
+  <Channel Number="107">LED 108 White</Channel>
+  <Channel Number="108">LED 109 Red</Channel>
+  <Channel Number="109">LED 110 Green</Channel>
+  <Channel Number="110">LED 111 Blue</Channel>
+  <Channel Number="111">LED 112 White</Channel>
+  <Channel Number="112">LED 113 Red</Channel>
+  <Channel Number="113">LED 114 Green</Channel>
+  <Channel Number="114">LED 115 Blue</Channel>
+  <Channel Number="115">LED 116 White</Channel>
+  <Channel Number="116">LED 117 Red</Channel>
+  <Channel Number="117">LED 118 Green</Channel>
+  <Channel Number="118">LED 119 Blue</Channel>
+  <Channel Number="119">LED 120 White</Channel>
+  <Channel Number="120">LED 121 Red</Channel>
+  <Channel Number="121">LED 122 Green</Channel>
+  <Channel Number="122">LED 123 Blue</Channel>
+  <Channel Number="123">LED 124 White</Channel>
+  <Channel Number="124">LED 125 Red</Channel>
+  <Channel Number="125">LED 126 Green</Channel>
+  <Channel Number="126">LED 127 Blue</Channel>
+  <Channel Number="127">LED 128 White</Channel>
+  <Channel Number="128">LED 129 Red</Channel>
+  <Channel Number="129">LED 130 Green</Channel>
+  <Channel Number="130">LED 131 Blue</Channel>
+  <Channel Number="131">LED 132 White</Channel>
+  <Channel Number="132">LED 133 Red</Channel>
+  <Channel Number="133">LED 134 Green</Channel>
+  <Channel Number="134">LED 135 Blue</Channel>
+  <Channel Number="135">LED 136 White</Channel>
+  <Channel Number="136">LED 137 Red</Channel>
+  <Channel Number="137">LED 138 Green</Channel>
+  <Channel Number="138">LED 139 Blue</Channel>
+  <Channel Number="139">LED 140 White</Channel>
+  <Channel Number="140">LED 141 Red</Channel>
+  <Channel Number="141">LED 142 Green</Channel>
+  <Channel Number="142">LED 143 Blue</Channel>
+  <Channel Number="143">LED 144 White</Channel>
+  <Channel Number="144">LED 145 Red</Channel>
+  <Channel Number="145">LED 146 Green</Channel>
+  <Channel Number="146">LED 147 Blue</Channel>
+  <Channel Number="147">LED 148 White</Channel>
+  <Channel Number="148">LED 149 Red</Channel>
+  <Channel Number="149">LED 150 Green</Channel>
+  <Channel Number="150">LED 151 Blue</Channel>
+  <Channel Number="151">LED 152 White</Channel>
+  <Channel Number="152">LED 153 Red</Channel>
+  <Channel Number="153">LED 154 Green</Channel>
+  <Channel Number="154">LED 155 Blue</Channel>
+  <Channel Number="155">LED 156 White</Channel>
+  <Channel Number="156">LED 157 Red</Channel>
+  <Channel Number="157">LED 158 Green</Channel>
+  <Channel Number="158">LED 159 Blue</Channel>
+  <Channel Number="159">LED 160 White</Channel>
+  <Channel Number="160">LED 161 Red</Channel>
+  <Channel Number="161">LED 162 Green</Channel>
+  <Channel Number="162">LED 163 Blue</Channel>
+  <Channel Number="163">LED 164 White</Channel>
+  <Channel Number="164">LED 165 Red</Channel>
+  <Channel Number="165">LED 166 Green</Channel>
+  <Channel Number="166">LED 167 Blue</Channel>
+  <Channel Number="167">LED 168 White</Channel>
+  <Channel Number="168">LED 169 Red</Channel>
+  <Channel Number="169">LED 170 Green</Channel>
+  <Channel Number="170">LED 171 Blue</Channel>
+  <Channel Number="171">LED 172 White</Channel>
+  <Channel Number="172">LED 173 Red</Channel>
+  <Channel Number="173">LED 174 Green</Channel>
+  <Channel Number="174">LED 175 Blue</Channel>
+  <Channel Number="175">LED 176 White</Channel>
+  <Channel Number="176">LED 177 Red</Channel>
+  <Channel Number="177">LED 178 Green</Channel>
+  <Channel Number="178">LED 179 Blue</Channel>
+  <Channel Number="179">LED 180 White</Channel>
+  <Channel Number="180">LED 181 Red</Channel>
+  <Channel Number="181">LED 182 Green</Channel>
+  <Channel Number="182">LED 183 Blue</Channel>
+  <Channel Number="183">LED 184 White</Channel>
+  <Channel Number="184">LED 185 Red</Channel>
+  <Channel Number="185">LED 186 Green</Channel>
+  <Channel Number="186">LED 187 Blue</Channel>
+  <Channel Number="187">LED 188 White</Channel>
+  <Channel Number="188">LED 189 Red</Channel>
+  <Channel Number="189">LED 190 Green</Channel>
+  <Channel Number="190">LED 191 Blue</Channel>
+  <Channel Number="191">LED 192 White</Channel>
+  <Channel Number="192">LED 193 Red</Channel>
+  <Channel Number="193">LED 194 Green</Channel>
+  <Channel Number="194">LED 195 Blue</Channel>
+  <Channel Number="195">LED 196 White</Channel>
+  <Channel Number="196">LED 197 Red</Channel>
+  <Channel Number="197">LED 198 Green</Channel>
+  <Channel Number="198">LED 199 Blue</Channel>
+  <Channel Number="199">LED 200 White</Channel>
+  <Channel Number="200">LED 201 Red</Channel>
+  <Channel Number="201">LED 202 Green</Channel>
+  <Channel Number="202">LED 203 Blue</Channel>
+  <Channel Number="203">LED 204 White</Channel>
+  <Channel Number="204">LED 205 Red</Channel>
+  <Channel Number="205">LED 206 Green</Channel>
+  <Channel Number="206">LED 207 Blue</Channel>
+  <Channel Number="207">LED 208 White</Channel>
+  <Channel Number="208">LED 209 Red</Channel>
+  <Channel Number="209">LED 210 Green</Channel>
+  <Channel Number="210">LED 211 Blue</Channel>
+  <Channel Number="211">LED 212 White</Channel>
+  <Channel Number="212">LED 213 Red</Channel>
+  <Channel Number="213">LED 214 Green</Channel>
+  <Channel Number="214">LED 215 Blue</Channel>
+  <Channel Number="215">LED 216 White</Channel>
+  <Channel Number="216">LED 217 Red</Channel>
+  <Channel Number="217">LED 218 Green</Channel>
+  <Channel Number="218">LED 219 Blue</Channel>
+  <Channel Number="219">LED 220 White</Channel>
+  <Channel Number="220">LED 221 Red</Channel>
+  <Channel Number="221">LED 222 Green</Channel>
+  <Channel Number="222">LED 223 Blue</Channel>
+  <Channel Number="223">LED 224 White</Channel>
+  <Channel Number="224">LED 225 Red</Channel>
+  <Channel Number="225">LED 226 Green</Channel>
+  <Channel Number="226">LED 227 Blue</Channel>
+  <Channel Number="227">LED 228 White</Channel>
+  <Channel Number="228">LED 229 Red</Channel>
+  <Channel Number="229">LED 230 Green</Channel>
+  <Channel Number="230">LED 231 Blue</Channel>
+  <Channel Number="231">LED 232 White</Channel>
+  <Channel Number="232">LED 233 Red</Channel>
+  <Channel Number="233">LED 234 Green</Channel>
+  <Channel Number="234">LED 235 Blue</Channel>
+  <Channel Number="235">LED 236 White</Channel>
+  <Channel Number="236">LED 237 Red</Channel>
+  <Channel Number="237">LED 238 Green</Channel>
+  <Channel Number="238">LED 239 Blue</Channel>
+  <Channel Number="239">LED 240 White</Channel>
+  <Channel Number="240">LED 241 Red</Channel>
+  <Channel Number="241">LED 242 Green</Channel>
+  <Channel Number="242">LED 243 Blue</Channel>
+  <Channel Number="243">LED 244 White</Channel>
+  <Channel Number="244">LED 245 Red</Channel>
+  <Channel Number="245">LED 246 Green</Channel>
+  <Channel Number="246">LED 247 Blue</Channel>
+  <Channel Number="247">LED 248 White</Channel>
+  <Channel Number="248">LED 249 Red</Channel>
+  <Channel Number="249">LED 250 Green</Channel>
+  <Channel Number="250">LED 251 Blue</Channel>
+  <Channel Number="251">LED 252 White</Channel>
+  <Channel Number="252">LED 253 Red</Channel>
+  <Channel Number="253">LED 254 Green</Channel>
+  <Channel Number="254">LED 255 Blue</Channel>
+  <Channel Number="255">LED 256 White</Channel>
+ </Mode>
+</FixtureDefinition>
