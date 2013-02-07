@@ -1,0 +1,166 @@
+<!DOCTYPE Workspace>
+<Workspace>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.2</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Engine>
+  <Bus ID="0">
+   <Name>Fade</Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="1">
+   <Name>Hold</Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="2">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="3">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="4">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="5">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="6">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="7">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="8">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="9">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="10">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="11">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="12">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="13">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="14">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="15">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="16">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="17">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="18">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="19">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="20">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="21">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="22">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="23">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="24">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="25">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="26">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="27">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="28">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="29">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="30">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="31">
+   <Name>Palette</Name>
+   <Value>0</Value>
+  </Bus>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>Sunken</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Grid Enabled="True" YResolution="10" XResolution="10"/>
+   <Keyboard RepeatOff="True" Grab="True"/>
+   <DefaultSlider High="10" Role="Fade" Visible="True" Low="0"/>
+   <DefaultSlider High="10" Role="Hold" Low="0"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce"/>
+   <Blackout/>
+   <WidgetProperties>
+    <X>100</X>
+    <Y>100</Y>
+    <Width>640</Width>
+    <Height>480</Height>
+    <State>0</State>
+    <Visible>0</Visible>
+   </WidgetProperties>
+  </Properties>
+ </VirtualConsole>
+</Workspace>
+

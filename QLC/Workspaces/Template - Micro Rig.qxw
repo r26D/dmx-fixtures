@@ -1,0 +1,4302 @@
+<!DOCTYPE Workspace>
+<Workspace>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-1-r2458</Version>
+  <Author>Echo Bones</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>0</ID>
+   <Name>Micro Wash L1 (1)</Name>
+   <Universe>0</Universe>
+   <Address>110</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>1</ID>
+   <Name>Micro Wash R1 (2)</Name>
+   <Universe>0</Universe>
+   <Address>120</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>2</ID>
+   <Name>Micro Wash L2 (3)</Name>
+   <Universe>0</Universe>
+   <Address>230</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>3</ID>
+   <Name>Micro Wash R2 (4)</Name>
+   <Universe>0</Universe>
+   <Address>240</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>4</ID>
+   <Name>Micro Wash L3 (5)</Name>
+   <Universe>0</Universe>
+   <Address>250</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel LTP</Mode>
+   <ID>5</ID>
+   <Name>Micro Wash R3 (6)</Name>
+   <Universe>0</Universe>
+   <Address>260</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="Group - All" ID="0">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">1</Value>
+   <Value Fixture="0" Channel="2">1</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Group - Odd" ID="1">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 1" ID="2">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Red - All" ID="3">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Green - All" ID="4">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="4">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="4">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="4">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Blue - All" ID="5">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Cyan - All" ID="6">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Yellow - All" ID="7">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Magenta - All" ID="8">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - White - All" ID="9">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Black - All" ID="10">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Group - Left" ID="11">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Group - Right" ID="12">
+   <Bus Role="Fade">0</Bus>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 2" ID="13">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 01" ID="14">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 02" ID="15">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 03" ID="16">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 04" ID="17">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 05" ID="18">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Knight Rider - 06" ID="19">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Knight Rider" ID="20">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">14</Step>
+   <Step Number="1">15</Step>
+   <Step Number="2">16</Step>
+   <Step Number="3">17</Step>
+   <Step Number="4">18</Step>
+   <Step Number="5">19</Step>
+   <Step Number="6">18</Step>
+   <Step Number="7">17</Step>
+   <Step Number="8">16</Step>
+   <Step Number="9">15</Step>
+  </Function>
+  <Function Type="Scene" Name="Color - Blue - Left" ID="21">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Red - Right" ID="22">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Blue - Right" ID="23">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Red - Left" ID="24">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Side - Red Blue" ID="25">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">21</Step>
+   <Step Number="1">23</Step>
+   <Step Number="2">24</Step>
+   <Step Number="3">22</Step>
+  </Function>
+  <Function Type="Scene" Name="Color - Blue - Odd" ID="26">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Red - Odd" ID="27">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Group - Even" ID="28">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Blue - Even" ID="29">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Red - Even" ID="30">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Odd Even - Red Blue" ID="31">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">27</Step>
+   <Step Number="1">30</Step>
+   <Step Number="2">26</Step>
+   <Step Number="3">29</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 3" ID="32">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 4" ID="33">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 5" ID="34">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 6" ID="35">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Line - RGBY" ID="36">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">2</Step>
+   <Step Number="1">13</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">33</Step>
+   <Step Number="4">34</Step>
+   <Step Number="5">35</Step>
+   <Step Number="6">43</Step>
+   <Step Number="7">44</Step>
+   <Step Number="8">45</Step>
+   <Step Number="9">46</Step>
+   <Step Number="10">47</Step>
+   <Step Number="11">48</Step>
+   <Step Number="12">37</Step>
+   <Step Number="13">38</Step>
+   <Step Number="14">39</Step>
+   <Step Number="15">40</Step>
+   <Step Number="16">41</Step>
+   <Step Number="17">42</Step>
+   <Step Number="18">50</Step>
+   <Step Number="19">51</Step>
+   <Step Number="20">52</Step>
+   <Step Number="21">53</Step>
+   <Step Number="22">54</Step>
+   <Step Number="23">55</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 1" ID="37">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 2" ID="38">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 3" ID="39">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 4" ID="40">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 5" ID="41">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Blue 6" ID="42">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 1" ID="43">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 2" ID="44">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 3" ID="45">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 4" ID="46">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 5" ID="47">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 6" ID="48">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Line Bounce - RGBY" ID="49">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">2</Step>
+   <Step Number="1">13</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">33</Step>
+   <Step Number="4">34</Step>
+   <Step Number="5">35</Step>
+   <Step Number="6">48</Step>
+   <Step Number="7">47</Step>
+   <Step Number="8">46</Step>
+   <Step Number="9">45</Step>
+   <Step Number="10">44</Step>
+   <Step Number="11">43</Step>
+   <Step Number="12">37</Step>
+   <Step Number="13">38</Step>
+   <Step Number="14">39</Step>
+   <Step Number="15">40</Step>
+   <Step Number="16">41</Step>
+   <Step Number="17">42</Step>
+   <Step Number="18">55</Step>
+   <Step Number="19">54</Step>
+   <Step Number="20">53</Step>
+   <Step Number="21">52</Step>
+   <Step Number="22">51</Step>
+   <Step Number="23">50</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 1" ID="50">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 2" ID="51">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 3" ID="52">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 4" ID="53">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 5" ID="54">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Yellow 6" ID="55">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Stagger RGB" ID="56">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Stagger GBR" ID="57">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Stagger BRG" ID="58">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Cycle RGB" ID="59">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">56</Step>
+   <Step Number="1">57</Step>
+   <Step Number="2">58</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 1" ID="60">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 1" ID="61">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 2" ID="62">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Meteor - Cyan" ID="63">
+   <Bus Role="Hold">6</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">111</Step>
+   <Step Number="1">112</Step>
+   <Step Number="2">113</Step>
+   <Step Number="3">114</Step>
+   <Step Number="4">115</Step>
+   <Step Number="5">116</Step>
+   <Step Number="6">117</Step>
+   <Step Number="7">118</Step>
+   <Step Number="8">119</Step>
+   <Step Number="9">121</Step>
+   <Step Number="10">121</Step>
+   <Step Number="11">121</Step>
+   <Step Number="12">121</Step>
+   <Step Number="13">121</Step>
+   <Step Number="14">121</Step>
+   <Step Number="15">121</Step>
+   <Step Number="16">121</Step>
+   <Step Number="17">121</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 3" ID="64">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 4" ID="65">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 5" ID="66">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Sparkle - Cyan 6" ID="67">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Sparkle - Cyan" ID="68">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">61</Step>
+   <Step Number="1">62</Step>
+   <Step Number="2">64</Step>
+   <Step Number="3">65</Step>
+   <Step Number="4">66</Step>
+   <Step Number="5">67</Step>
+  </Function>
+  <Function Type="Scene" Name="Color - Stagger RBR" ID="69">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - Stagger BRB" ID="70">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Stagger RB" ID="71">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">69</Step>
+   <Step Number="1">70</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Stagger - MW 1" ID="72">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Stagger - MW 2" ID="73">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Stagger - MW" ID="74">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">72</Step>
+   <Step Number="1">73</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 1" ID="75">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 2" ID="76">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 3" ID="77">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 4" ID="78">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 5" ID="79">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Wave - RB 6" ID="80">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Wave" ID="81">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">75</Step>
+   <Step Number="1">76</Step>
+   <Step Number="2">77</Step>
+   <Step Number="3">78</Step>
+   <Step Number="4">79</Step>
+   <Step Number="5">80</Step>
+   <Step Number="6">79</Step>
+   <Step Number="7">78</Step>
+   <Step Number="8">77</Step>
+   <Step Number="9">76</Step>
+   <Step Number="10">75</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Split - BW 1" ID="82">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Split - BW 2" ID="83">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Split - BW 3" ID="84">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Split - BW" ID="85">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">82</Step>
+   <Step Number="1">83</Step>
+   <Step Number="2">84</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Flame - RAY 1" ID="86">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">14</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">254</Value>
+   <Value Fixture="3" Channel="1">121</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Flame - RAY 2" ID="87">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">254</Value>
+   <Value Fixture="2" Channel="1">106</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">254</Value>
+   <Value Fixture="3" Channel="1">121</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">220</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Flame - RAY 3" ID="88">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">80</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">73</Value>
+   <Value Fixture="2" Channel="0">254</Value>
+   <Value Fixture="2" Channel="1">121</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">94</Value>
+   <Value Fixture="3" Channel="0">254</Value>
+   <Value Fixture="3" Channel="1">121</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">102</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">111</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">210</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Flame" ID="89">
+   <Bus Role="Hold">6</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">124</Step>
+   <Step Number="1">87</Step>
+   <Step Number="2">86</Step>
+   <Step Number="3">123</Step>
+   <Step Number="4">88</Step>
+   <Step Number="5">124</Step>
+   <Step Number="6">86</Step>
+   <Step Number="7">87</Step>
+   <Step Number="8">123</Step>
+   <Step Number="9">88</Step>
+   <Step Number="10">86</Step>
+   <Step Number="11">88</Step>
+   <Step Number="12">87</Step>
+   <Step Number="13">123</Step>
+   <Step Number="14">124</Step>
+   <Step Number="15">88</Step>
+   <Step Number="16">87</Step>
+   <Step Number="17">123</Step>
+  </Function>
+  <Function Type="Scene" Name="Strobe - Random" ID="90">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="5">116</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="5">195</Value>
+   <Value Fixture="1" Channel="7">172</Value>
+   <Value Fixture="2" Channel="0">96</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="5">30</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">96</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="5">135</Value>
+   <Value Fixture="3" Channel="7">191</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="5">221</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="5">150</Value>
+   <Value Fixture="5" Channel="7">180</Value>
+  </Function>
+  <Function Type="Scene" Name="Strobe - Beat - On" ID="91">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="5">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">96</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="5">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">96</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="5">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="5">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="5">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Strobe - Beat - Off" ID="92">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="5">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">96</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">96</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Chaser" Name="Strobe - Beat" ID="93">
+   <Bus Role="Hold">6</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">91</Step>
+   <Step Number="1">92</Step>
+  </Function>
+  <Function Type="Scene" Name="Color - Magenta - All" ID="94">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="4">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="4">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="4">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - 6 Color" ID="95">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">4</Step>
+   <Step Number="3">7</Step>
+   <Step Number="4">94</Step>
+   <Step Number="5">6</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 2" ID="96">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 3" ID="97">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 4" ID="98">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 5" ID="99">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Cyan 6" ID="100">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 1" ID="101">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 2" ID="102">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 3" ID="103">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 4" ID="104">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 5" ID="105">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Magenta 6" ID="106">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Chaser" Name="Chase - Line - 6 Color" ID="107">
+   <Bus Role="Hold">15</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Step Number="0">2</Step>
+   <Step Number="1">13</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">33</Step>
+   <Step Number="4">34</Step>
+   <Step Number="5">35</Step>
+   <Step Number="6">35</Step>
+   <Step Number="7">34</Step>
+   <Step Number="8">33</Step>
+   <Step Number="9">32</Step>
+   <Step Number="10">13</Step>
+   <Step Number="11">2</Step>
+   <Step Number="12">110</Step>
+   <Step Number="13">43</Step>
+   <Step Number="14">44</Step>
+   <Step Number="15">45</Step>
+   <Step Number="16">46</Step>
+   <Step Number="17">47</Step>
+   <Step Number="18">48</Step>
+   <Step Number="19">48</Step>
+   <Step Number="20">47</Step>
+   <Step Number="21">46</Step>
+   <Step Number="22">45</Step>
+   <Step Number="23">44</Step>
+   <Step Number="24">43</Step>
+   <Step Number="25">110</Step>
+   <Step Number="26">37</Step>
+   <Step Number="27">38</Step>
+   <Step Number="28">39</Step>
+   <Step Number="29">40</Step>
+   <Step Number="30">41</Step>
+   <Step Number="31">42</Step>
+   <Step Number="32">42</Step>
+   <Step Number="33">41</Step>
+   <Step Number="34">40</Step>
+   <Step Number="35">39</Step>
+   <Step Number="36">38</Step>
+   <Step Number="37">37</Step>
+   <Step Number="38">110</Step>
+   <Step Number="39">50</Step>
+   <Step Number="40">51</Step>
+   <Step Number="41">52</Step>
+   <Step Number="42">53</Step>
+   <Step Number="43">54</Step>
+   <Step Number="44">55</Step>
+   <Step Number="45">55</Step>
+   <Step Number="46">54</Step>
+   <Step Number="47">53</Step>
+   <Step Number="48">52</Step>
+   <Step Number="49">51</Step>
+   <Step Number="50">50</Step>
+   <Step Number="51">110</Step>
+   <Step Number="52">101</Step>
+   <Step Number="53">102</Step>
+   <Step Number="54">103</Step>
+   <Step Number="55">104</Step>
+   <Step Number="56">105</Step>
+   <Step Number="57">106</Step>
+   <Step Number="58">106</Step>
+   <Step Number="59">105</Step>
+   <Step Number="60">104</Step>
+   <Step Number="61">103</Step>
+   <Step Number="62">102</Step>
+   <Step Number="63">101</Step>
+   <Step Number="64">110</Step>
+   <Step Number="65">60</Step>
+   <Step Number="66">96</Step>
+   <Step Number="67">97</Step>
+   <Step Number="68">98</Step>
+   <Step Number="69">99</Step>
+   <Step Number="70">100</Step>
+   <Step Number="71">100</Step>
+   <Step Number="72">99</Step>
+   <Step Number="73">98</Step>
+   <Step Number="74">97</Step>
+   <Step Number="75">96</Step>
+   <Step Number="76">60</Step>
+   <Step Number="77">110</Step>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Red 0" ID="108">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Green 0" ID="109">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Line - Block Cue" ID="110">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">0</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 1" ID="111">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 2" ID="112">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">64</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">96</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 3" ID="113">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">32</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">64</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 4" ID="114">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">32</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">64</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 5" ID="115">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">64</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">96</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">32</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 6" ID="116">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">32</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">64</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 7" ID="117">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">32</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">64</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 8" ID="118">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">32</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 9" ID="119">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">0</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 10" ID="120">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Meteor - Cyan 11" ID="121">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">0</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">0</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Strobe - Random Off" ID="122">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">96</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">255</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+   <Value Fixture="1" Channel="0">96</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">255</Value>
+   <Value Fixture="1" Channel="5">0</Value>
+   <Value Fixture="1" Channel="7">0</Value>
+   <Value Fixture="2" Channel="0">96</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">255</Value>
+   <Value Fixture="2" Channel="3">255</Value>
+   <Value Fixture="2" Channel="5">0</Value>
+   <Value Fixture="2" Channel="7">0</Value>
+   <Value Fixture="3" Channel="0">96</Value>
+   <Value Fixture="3" Channel="1">255</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">255</Value>
+   <Value Fixture="3" Channel="5">0</Value>
+   <Value Fixture="3" Channel="7">0</Value>
+   <Value Fixture="4" Channel="0">96</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">255</Value>
+   <Value Fixture="4" Channel="3">255</Value>
+   <Value Fixture="4" Channel="5">0</Value>
+   <Value Fixture="4" Channel="7">0</Value>
+   <Value Fixture="5" Channel="0">96</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">255</Value>
+   <Value Fixture="5" Channel="5">0</Value>
+   <Value Fixture="5" Channel="7">0</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Flame - RAY 4" ID="123">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">255</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">255</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">0</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">201</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">205</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">148</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">102</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">182</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">148</Value>
+  </Function>
+  <Function Type="Scene" Name="Chase - Flame - RAY 5" ID="124">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">0</Value>
+   <Value Fixture="0" Channel="2">0</Value>
+   <Value Fixture="0" Channel="3">0</Value>
+   <Value Fixture="0" Channel="5">0</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">70</Value>
+   <Value Fixture="1" Channel="0">255</Value>
+   <Value Fixture="1" Channel="1">121</Value>
+   <Value Fixture="1" Channel="2">0</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">102</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">0</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">88</Value>
+   <Value Fixture="3" Channel="0">255</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">0</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">46</Value>
+   <Value Fixture="4" Channel="0">255</Value>
+   <Value Fixture="4" Channel="1">102</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">102</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">255</Value>
+   <Value Fixture="5" Channel="2">0</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">97</Value>
+  </Function>
+  <Function Type="Scene" Name="Color - RYGCBM" ID="125">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="0">255</Value>
+   <Value Fixture="0" Channel="1">1</Value>
+   <Value Fixture="0" Channel="2">1</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="7">255</Value>
+   <Value Fixture="1" Channel="0">0</Value>
+   <Value Fixture="1" Channel="1">255</Value>
+   <Value Fixture="1" Channel="2">255</Value>
+   <Value Fixture="1" Channel="3">0</Value>
+   <Value Fixture="1" Channel="7">255</Value>
+   <Value Fixture="2" Channel="0">255</Value>
+   <Value Fixture="2" Channel="1">255</Value>
+   <Value Fixture="2" Channel="2">0</Value>
+   <Value Fixture="2" Channel="3">0</Value>
+   <Value Fixture="2" Channel="7">255</Value>
+   <Value Fixture="3" Channel="0">0</Value>
+   <Value Fixture="3" Channel="1">0</Value>
+   <Value Fixture="3" Channel="2">255</Value>
+   <Value Fixture="3" Channel="3">0</Value>
+   <Value Fixture="3" Channel="7">255</Value>
+   <Value Fixture="4" Channel="0">0</Value>
+   <Value Fixture="4" Channel="1">255</Value>
+   <Value Fixture="4" Channel="2">0</Value>
+   <Value Fixture="4" Channel="3">0</Value>
+   <Value Fixture="4" Channel="7">255</Value>
+   <Value Fixture="5" Channel="0">255</Value>
+   <Value Fixture="5" Channel="1">0</Value>
+   <Value Fixture="5" Channel="2">255</Value>
+   <Value Fixture="5" Channel="3">0</Value>
+   <Value Fixture="5" Channel="7">255</Value>
+  </Function>
+  <Bus ID="0">
+   <Name>Fade</Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="1">
+   <Name>Hold</Name>
+   <Value>30</Value>
+  </Bus>
+  <Bus ID="2">
+   <Name>Vel</Name>
+   <Value>361</Value>
+  </Bus>
+  <Bus ID="3">
+   <Name>Speed</Name>
+   <Value>50</Value>
+  </Bus>
+  <Bus ID="4">
+   <Name>Pulse</Name>
+   <Value>11</Value>
+  </Bus>
+  <Bus ID="5">
+   <Name>Intensity</Name>
+   <Value>9</Value>
+  </Bus>
+  <Bus ID="6">
+   <Name>Strobe</Name>
+   <Value>5</Value>
+  </Bus>
+  <Bus ID="7">
+   <Name></Name>
+   <Value>500</Value>
+  </Bus>
+  <Bus ID="8">
+   <Name></Name>
+   <Value>500</Value>
+  </Bus>
+  <Bus ID="9">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="10">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="11">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="12">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="13">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="14">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="15">
+   <Name>Beat</Name>
+   <Value>61</Value>
+  </Bus>
+  <Bus ID="16">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="17">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="18">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="19">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="20">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="21">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="22">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="23">
+   <Name>Long Play</Name>
+   <Value>750</Value>
+  </Bus>
+  <Bus ID="24">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="25">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="26">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="27">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="28">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="29">
+   <Name></Name>
+   <Value>3000</Value>
+  </Bus>
+  <Bus ID="30">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="31">
+   <Name>None</Name>
+   <Value>0</Value>
+  </Bus>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>Sunken</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <WindowState Width="1276" X="0" Y="-22" Height="778" Visible="False"/>
+   <AllowChildren>True</AllowChildren>
+   <AllowResize>True</AllowResize>
+   <Button Icon="" Caption="R">
+    <Function ID="3"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="96" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294901760</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="G">
+    <Function ID="4"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="152" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278255360</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="B">
+    <Function ID="5"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="208" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278190335</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="C">
+    <Function ID="6"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="96" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4278255615</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Y">
+    <Function ID="7"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="152" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294967040</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="M">
+    <Function ID="8"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="208" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294902015</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="W">
+    <Function ID="9"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="40" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4294967295</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="K">
+    <Function ID="10"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="40" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4283190348</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="K R">
+    <Function ID="20"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="312" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider Caption="Beat" InvertedAppearance="true">
+    <WindowState Width="60" X="1068" Y="8" Height="200" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="132"/>
+    <SliderMode ValueDisplayStyle="Exact">Bus</SliderMode>
+    <Bus HighLimit="3" LowLimit="0">15</Bus>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Icon="" Caption="R/B Side">
+    <Function ID="25"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="364" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="R/B O/E">
+    <Function ID="31"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="416" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Line RGBY">
+    <Function ID="36"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="468" Y="44" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Line Bounce">
+    <Function ID="49"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="416" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Cycle RGB">
+    <Function ID="59"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="468" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Sparkle Cyan">
+    <Function ID="68"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="312" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Stag R/B">
+    <Function ID="71"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="364" Y="96" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Stag MW">
+    <Function ID="74"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="312" Y="148" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Wave R/B">
+    <Function ID="81"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="364" Y="148" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Split B/W">
+    <Function ID="85"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="416" Y="148" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Flame RAY">
+    <Function ID="89"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="468" Y="148" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider Caption="Strobe" InvertedAppearance="true">
+    <WindowState Width="60" X="1004" Y="8" Height="200" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="133"/>
+    <SliderMode ValueDisplayStyle="Exact">Bus</SliderMode>
+    <Bus HighLimit="2" LowLimit="0">6</Bus>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Icon="" Caption="RDM Str">
+    <Function ID="90"/>
+    <Action>Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="312" Y="200" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Strobe">
+    <Function ID="93"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="364" Y="200" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="6  Color">
+    <Function ID="95"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="416" Y="200" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Line  6 Color">
+    <Function ID="107"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="468" Y="200" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Meteor Cyan">
+    <Function ID="63"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="312" Y="252" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="RYG CBM">
+    <Function ID="125"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="48" X="364" Y="252" Height="48" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Grid Enabled="True" YResolution="4" XResolution="4"/>
+   <Keyboard RepeatOff="True" Grab="True"/>
+   <DefaultSlider High="3" Role="Fade" Visible="True" Low="0">
+    <Input Universe="0" Channel="16"/>
+   </DefaultSlider>
+   <DefaultSlider High="30" Role="Hold" Low="0">
+    <Input Universe="0" Channel="18"/>
+   </DefaultSlider>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce">
+    <Input Universe="0" Channel="20"/>
+   </GrandMaster>
+   <Blackout>
+    <Input Universe="0" Channel="179"/>
+   </Blackout>
+   <WidgetProperties>
+    <X>4</X>
+    <Y>97</Y>
+    <Width>1269</Width>
+    <Height>652</Height>
+    <State>8</State>
+    <Visible>0</Visible>
+   </WidgetProperties>
+  </Properties>
+ </VirtualConsole>
+</Workspace>
+

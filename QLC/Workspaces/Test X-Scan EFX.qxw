@@ -1,0 +1,239 @@
+<!DOCTYPE Workspace>
+<Workspace>
+ <Creator>
+  <Name>Q Light Controller</Name>
+  <Version>3.2.0-r2319</Version>
+  <Author>withlime</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>X-Scan LED Plus</Model>
+   <Mode>8 Channel DMX</Mode>
+   <ID>0</ID>
+   <Name>X-Scan LED Plus</Name>
+   <Universe>0</Universe>
+   <Address>335</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Function Type="EFX" Name="New EFX" ID="0">
+   <Fixture>
+    <ID>0</ID>
+    <Direction>Forward</Direction>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Bus Role="Fade">0</Bus>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>90</Width>
+   <Height>90</Height>
+   <Rotation>90</Rotation>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="Scene" Name="Scene Int" ID="1">
+   <Bus Role="Fade">0</Bus>
+   <Value Fixture="0" Channel="2">45</Value>
+   <Value Fixture="0" Channel="3">1</Value>
+   <Value Fixture="0" Channel="4">8</Value>
+   <Value Fixture="0" Channel="5">255</Value>
+   <Value Fixture="0" Channel="6">0</Value>
+   <Value Fixture="0" Channel="7">0</Value>
+  </Function>
+  <Function Type="Collection" Name="New Collection" ID="2">
+   <Step Number="0">0</Step>
+   <Step Number="1">1</Step>
+  </Function>
+  <Bus ID="0">
+   <Name>Fade</Name>
+   <Value>314</Value>
+  </Bus>
+  <Bus ID="1">
+   <Name>Hold</Name>
+   <Value>255</Value>
+  </Bus>
+  <Bus ID="2">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="3">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="4">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="5">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="6">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="7">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="8">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="9">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="10">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="11">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="12">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="13">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="14">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="15">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="16">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="17">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="18">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="19">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="20">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="21">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="22">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="23">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="24">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="25">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="26">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="27">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="28">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="29">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="30">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+  <Bus ID="31">
+   <Name></Name>
+   <Value>0</Value>
+  </Bus>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>Sunken</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" Caption="New EFX">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="40" Y="30" Height="50" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="New Collection">
+    <Function ID="2"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="70" X="110" Y="30" Height="40" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Grid Enabled="True" YResolution="10" XResolution="10"/>
+   <Keyboard RepeatOff="True" Grab="True"/>
+   <DefaultSlider High="10" Role="Fade" Visible="True" Low="0"/>
+   <DefaultSlider High="10" Role="Hold" Low="0"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce"/>
+   <Blackout/>
+   <WidgetProperties>
+    <X>457</X>
+    <Y>166</Y>
+    <Width>899</Width>
+    <Height>547</Height>
+    <State>0</State>
+    <Visible>1</Visible>
+   </WidgetProperties>
+  </Properties>
+ </VirtualConsole>
+</Workspace>
+
