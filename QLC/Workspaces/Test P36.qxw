@@ -2,19 +2,19 @@
 <Workspace>
  <Creator>
   <Name>Q Light Controller</Name>
-  <Version>3.2.0-1-r2456</Version>
-  <Author>withlime</Author>
+  <Version>3.2.0-r2319</Version>
+  <Author>Brett Elmendorf</Author>
  </Creator>
  <Engine>
   <Fixture>
-   <Manufacturer>Sirs-E</Manufacturer>
-   <Model>LED-CON2</Model>
-   <Mode>3 Channel</Mode>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>P36 LED</Model>
+   <Mode>6 Channel Mode</Mode>
    <ID>0</ID>
-   <Name>LED-CON2</Name>
+   <Name>P36 LED</Name>
    <Universe>0</Universe>
    <Address>0</Address>
-   <Channels>3</Channels>
+   <Channels>6</Channels>
   </Fixture>
   <Bus ID="0">
    <Name>Fade</Name>
@@ -141,20 +141,11 @@
    <Value>0</Value>
   </Bus>
   <Bus ID="31">
-   <Name>Palette</Name>
+   <Name></Name>
    <Value>0</Value>
   </Bus>
  </Engine>
  <VirtualConsole>
-  <Frame Caption="">
-   <Appearance>
-    <FrameStyle>Sunken</FrameStyle>
-    <ForegroundColor>Default</ForegroundColor>
-    <BackgroundColor>Default</BackgroundColor>
-    <BackgroundImage>None</BackgroundImage>
-    <Font>Default</Font>
-   </Appearance>
-  </Frame>
   <Properties>
    <Grid Enabled="True" YResolution="10" XResolution="10"/>
    <Keyboard RepeatOff="True" Grab="True"/>

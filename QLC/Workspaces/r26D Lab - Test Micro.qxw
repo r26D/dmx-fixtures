@@ -2,19 +2,19 @@
 <Workspace>
  <Creator>
   <Name>Q Light Controller</Name>
-  <Version>3.2.0-r2319</Version>
-  <Author>withlime</Author>
+  <Version>3.2.2</Version>
+  <Author>Brett Elmendorf</Author>
  </Creator>
  <Engine>
   <Fixture>
    <Manufacturer>American DJ</Manufacturer>
-   <Model>P36 LED</Model>
-   <Mode>6 Channel Mode</Mode>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>8 Channel</Mode>
    <ID>0</ID>
-   <Name>P36 LED</Name>
+   <Name>Micro Wash RGBW</Name>
    <Universe>0</Universe>
-   <Address>0</Address>
-   <Channels>6</Channels>
+   <Address>230</Address>
+   <Channels>8</Channels>
   </Fixture>
   <Bus ID="0">
    <Name>Fade</Name>
@@ -146,6 +146,15 @@
   </Bus>
  </Engine>
  <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>Sunken</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
   <Properties>
    <Grid Enabled="True" YResolution="10" XResolution="10"/>
    <Keyboard RepeatOff="True" Grab="True"/>
@@ -154,12 +163,12 @@
    <GrandMaster ChannelMode="Intensity" ValueMode="Reduce"/>
    <Blackout/>
    <WidgetProperties>
-    <X>100</X>
-    <Y>100</Y>
+    <X>957</X>
+    <Y>56</Y>
     <Width>640</Width>
     <Height>480</Height>
     <State>0</State>
-    <Visible>0</Visible>
+    <Visible>1</Visible>
    </WidgetProperties>
   </Properties>
  </VirtualConsole>
