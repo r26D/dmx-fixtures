@@ -1,0 +1,150 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0</Version>
+  <Author>Brett Elmendorf</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>2</ID>
+   <Name>LED Strip</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>3</ID>
+   <Name>Micro Wash #1</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>4</ID>
+   <Name>Micro Wash #2</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Blizzard Lighting</Manufacturer>
+   <Model>Puck Fab5</Model>
+   <Mode>5 Channel</Mode>
+   <ID>5</ID>
+   <Name>Puck Fab5</Name>
+   <Universe>0</Universe>
+   <Address>25</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Color Washers</Name>
+   <Size X="2" Y="2"/>
+   <Head Fixture="2" X="0" Y="0">0</Head>
+   <Head Fixture="3" X="1" Y="0">0</Head>
+   <Head Fixture="4" X="0" Y="1">0</Head>
+   <Head Fixture="5" X="1" Y="1">0</Head>
+  </FixtureGroup>
+  <Function Type="Scene" Name="Red" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Green" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Blue" ID="2">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">2,255</FixtureVal>
+   <FixtureVal ID="3">2,255</FixtureVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Cyan" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">1,255,2,255</FixtureVal>
+   <FixtureVal ID="3">1,255,2,255</FixtureVal>
+   <FixtureVal ID="4">1,255,2,255</FixtureVal>
+   <FixtureVal ID="5">1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Yellow" ID="4">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,255,1,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,3,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Magenta" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,255,2,255</FixtureVal>
+   <FixtureVal ID="3">0,255,2,255</FixtureVal>
+   <FixtureVal ID="4">0,255,2,255</FixtureVal>
+   <FixtureVal ID="5">0,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Violet" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,107,2,255</FixtureVal>
+   <FixtureVal ID="3">0,107,2,255</FixtureVal>
+   <FixtureVal ID="4">0,107,2,255</FixtureVal>
+   <FixtureVal ID="5">0,107,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Amber" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,255,1,109</FixtureVal>
+   <FixtureVal ID="3">0,255,1,109</FixtureVal>
+   <FixtureVal ID="4">0,255,1,109</FixtureVal>
+   <FixtureVal ID="5">0,255,1,109,3,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="White" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Rainbow Wash" ID="9">
+   <Speed Duration="6000" FadeOut="4000" FadeIn="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="2000">0</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="2000">1</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="2000">2</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+
