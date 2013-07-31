@@ -1,5 +1,5 @@
 <!DOCTYPE Workspace>
-<Workspace CurrentWindow="FunctionManager">
+<Workspace CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.4.0</Version>
@@ -7,19 +7,19 @@
  </Creator>
  <Engine>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic RGB</Model>
-   <Mode>RGB</Mode>
+   <Manufacturer>Sirs-E</Manufacturer>
+   <Model>LED-CON2</Model>
+   <Mode>3 Channel</Mode>
    <ID>2</ID>
    <Name>LED Strip</Name>
    <Universe>0</Universe>
-   <Address>0</Address>
+   <Address>3</Address>
    <Channels>3</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic RGB</Model>
-   <Mode>RGB Dimmer</Mode>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>4 Channel</Mode>
    <ID>3</ID>
    <Name>Micro Wash #1</Name>
    <Universe>0</Universe>
@@ -27,9 +27,9 @@
    <Channels>4</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic RGB</Model>
-   <Mode>RGB Dimmer</Mode>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>4 Channel</Mode>
    <ID>4</ID>
    <Name>Micro Wash #2</Name>
    <Universe>0</Universe>
@@ -45,6 +45,16 @@
    <Universe>0</Universe>
    <Address>25</Address>
    <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>FREQ 16 Strobe</Model>
+   <Mode>18 Channels</Mode>
+   <ID>6</ID>
+   <Name>FREQ 16 Strobe</Name>
+   <Universe>0</Universe>
+   <Address>31</Address>
+   <Channels>18</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Color Washers</Name>
