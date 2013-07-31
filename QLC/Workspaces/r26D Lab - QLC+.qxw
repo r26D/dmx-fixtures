@@ -1,5 +1,5 @@
 <!DOCTYPE Workspace>
-<Workspace CurrentWindow="FixtureManager">
+<Workspace CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.4.0</Version>
@@ -49,12 +49,12 @@
   <Fixture>
    <Manufacturer>American DJ</Manufacturer>
    <Model>FREQ 16 Strobe</Model>
-   <Mode>18 Channels</Mode>
+   <Mode>1 Channel</Mode>
    <ID>6</ID>
    <Name>FREQ 16 Strobe</Name>
    <Universe>0</Universe>
    <Address>31</Address>
-   <Channels>18</Channels>
+   <Channels>1</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Color Washers</Name>
