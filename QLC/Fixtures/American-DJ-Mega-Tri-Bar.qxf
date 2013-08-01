@@ -1,0 +1,71 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0</Version>
+  <Author>Brett Elmendorf</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>Mega Tri Bar</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Macros/Programs">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="10">OFF</Capability>
+  <Capability Min="11" Max="21" Color="#ff0000">Red</Capability>
+  <Capability Min="22" Max="32" Color="#ffff00">Yellow</Capability>
+  <Capability Min="33" Max="43" Color="#00ff00">Green</Capability>
+  <Capability Min="44" Max="54" Color="#00ffff">Cyan</Capability>
+  <Capability Min="55" Max="65" Color="#0000ff">Blue</Capability>
+  <Capability Min="66" Max="76" Color="#800080">Purple</Capability>
+  <Capability Min="77" Max="87" Color="#ffffff">White</Capability>
+  <Capability Min="88" Max="98">Slow Dream</Capability>
+  <Capability Min="99" Max="109">Fast Dream</Capability>
+  <Capability Min="110" Max="120">Color Fade</Capability>
+  <Capability Min="121" Max="131">Color Change</Capability>
+  <Capability Min="132" Max="142">Flow 1</Capability>
+  <Capability Min="143" Max="153" Color="#ffffff">Flow 2</Capability>
+  <Capability Min="154" Max="164">Flow 3</Capability>
+  <Capability Min="165" Max="175">Flow 4</Capability>
+  <Capability Min="176" Max="186">Double Flow 1</Capability>
+  <Capability Min="187" Max="197">Double Flow 2</Capability>
+  <Capability Min="198" Max="208">Multi Color</Capability>
+  <Capability Min="209" Max="219">2 Color Flow 1</Capability>
+  <Capability Min="220" Max="230">2 Color Flow 2</Capability>
+  <Capability Min="231" Max="255">Sound Active</Capability>
+ </Channel>
+ <Channel Name="Speed/Sound Sensitivity Control">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Slow - Fast</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">0% - 100%</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">0% - 100%</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">0% - 100%</Capability>
+ </Channel>
+ <Channel Name="Color Macros">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="0">OFF</Capability>
+  <Capability Min="1" Max="7">Bastard Amber</Capability>
+ </Channel>
+ <Mode Name="2 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="80" Height="116" Weight="6" Depth="1100"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="80" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Macros/Programs</Channel>
+  <Channel Number="1">Speed/Sound Sensitivity Control</Channel>
+ </Mode>
+</FixtureDefinition>
