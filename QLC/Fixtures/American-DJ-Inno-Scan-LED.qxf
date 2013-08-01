@@ -82,7 +82,7 @@
   <Capability Min="0" Max="255">Dimmer 0% - 100%</Capability>
  </Channel>
  <Channel Name="Reset/Blackout">
-  <Group Byte="0">Intensity</Group>
+  <Group Byte="0">Shutter</Group>
   <Capability Min="0" Max="69">No Function</Capability>
   <Capability Min="70" Max="79">Enable Blackout white Pan/Tilt Move</Capability>
   <Capability Min="80" Max="89">Disable Blackout white Pan/Tilt Move</Capability>

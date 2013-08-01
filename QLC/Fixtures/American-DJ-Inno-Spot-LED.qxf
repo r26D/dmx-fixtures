@@ -117,6 +117,5 @@
   <Channel Number="7">Moving Head Movement</Channel>
   <Channel Number="8">Movement Speed</Channel>
   <Channel Number="9">Prism Effect</Channel>
-  <Head/>
  </Mode>
 </FixtureDefinition>
