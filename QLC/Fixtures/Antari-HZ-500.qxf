@@ -1,0 +1,27 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0</Version>
+  <Author>Brett Elmendorf</Author>
+ </Creator>
+ <Manufacturer>Antari</Manufacturer>
+ <Model>HZ-500</Model>
+ <Type>Hazer</Type>
+ <Channel Name="Haze">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Mode Name="1 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="375" Height="350" Weight="31.5" Depth="510"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="400" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Haze</Channel>
+  <Head>
+   <Channel>0</Channel>
+  </Head>
+ </Mode>
+</FixtureDefinition>
