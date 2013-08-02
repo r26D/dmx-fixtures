@@ -13,7 +13,7 @@
    <ID>2</ID>
    <Name>LED Strip</Name>
    <Universe>0</Universe>
-   <Address>3</Address>
+   <Address>0</Address>
    <Channels>3</Channels>
   </Fixture>
   <Fixture>
@@ -73,10 +73,10 @@
   </Function>
   <Function Type="Scene" Name="Green" ID="1">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="3">0,0,1,0,2,0,3,0</FixtureVal>
-   <FixtureVal ID="4">0,0,1,0,2,0,3,0</FixtureVal>
-   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,255,2,0,3,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,255,2,0,3,0,4,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Blue" ID="2">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -128,11 +128,11 @@
    <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="Rainbow Wash" ID="9">
-   <Speed Duration="6000" FadeOut="4000" FadeIn="4000"/>
+   <Speed Duration="30000" FadeOut="12000" FadeIn="12000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
-   <Step Number="0" FadeOut="0" FadeIn="0" Hold="2000">0</Step>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="4000">0</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="2000">1</Step>
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="2000">2</Step>
   </Function>
