@@ -3560,7 +3560,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="132" LowLimit="15" Value="31">
+    <Level HighLimit="132" LowLimit="15" Value="132">
      <Channel Fixture="5">4</Channel>
      <Channel Fixture="10">4</Channel>
      <Channel Fixture="26">4</Channel>
@@ -4288,7 +4288,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="255">
+     <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="27">0</Channel>
      </Level>
      <Playback>
@@ -4322,7 +4322,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="255">
+     <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="27">2</Channel>
      </Level>
      <Playback>
