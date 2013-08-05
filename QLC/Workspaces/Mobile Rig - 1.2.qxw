@@ -546,15 +546,18 @@
   <ChannelsGroup Name="White" ID="4" Value="0">11,3,12,3,24,3,28,3,30,3,31,6,32,6,33,3,34,3,35,3,36,3,37,3,38,6</ChannelsGroup>
   <ChannelsGroup Name="Amber" ID="5" Value="0">31,5,32,5,38,5</ChannelsGroup>
   <ChannelsGroup Name="Dimmer" ID="3" Value="0">0,27,1,27,3,1,4,6,5,5,6,6,7,3,8,0,10,5,11,7,12,7,14,6,15,6,23,5,24,7,26,5,28,7,30,7,31,0,32,0,33,7,34,7,35,7,36,7,37,7,38,0,39,6,40,6,41,6,42,6</ChannelsGroup>
+  <ChannelsGroup Name="Pan" ID="6" Value="0">5,0,10,0,20,0,21,0,26,0,39,0,40,0,41,0,42,0</ChannelsGroup>
+  <ChannelsGroup Name="Tilt" ID="7" Value="0">5,1,10,1,20,1,21,1,26,1,39,1,40,1,41,1,42,1</ChannelsGroup>
   <Function Type="Scene" Name="Group - All Scanners" ID="0">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">0,124,1,124,5,0</FixtureVal>
-   <FixtureVal ID="10">0,124,1,124,5,0</FixtureVal>
-   <FixtureVal ID="20">0,124,1,124</FixtureVal>
-   <FixtureVal ID="21">0,124,1,124</FixtureVal>
-   <FixtureVal ID="26">0,124,1,124,5,0</FixtureVal>
-   <FixtureVal ID="39">0,124,1,124,6,0</FixtureVal>
-   <FixtureVal ID="40">0,124,1,124,6,0</FixtureVal>
+   <ChannelGroups>6,7</ChannelGroups>
+   <FixtureVal ID="5">0,128,1,32,5,0</FixtureVal>
+   <FixtureVal ID="10">0,128,1,32,5,0</FixtureVal>
+   <FixtureVal ID="20">0,128,1,32</FixtureVal>
+   <FixtureVal ID="21">0,128,1,32</FixtureVal>
+   <FixtureVal ID="26">0,128,1,32,5,0</FixtureVal>
+   <FixtureVal ID="39">0,128,1,32,6,0</FixtureVal>
+   <FixtureVal ID="40">0,128,1,32,6,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Group - All Color Changers" ID="1">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -566,8 +569,8 @@
   </Function>
   <Function Type="Scene" Name="Group - All Fixtures" ID="2">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">6,0</FixtureVal>
-   <FixtureVal ID="1">6,0</FixtureVal>
+   <FixtureVal ID="0">27,0</FixtureVal>
+   <FixtureVal ID="1">27,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="3">1,0</FixtureVal>
    <FixtureVal ID="4">6,0</FixtureVal>
@@ -578,8 +581,37 @@
    <FixtureVal ID="9">3,0</FixtureVal>
    <FixtureVal ID="10">5,0</FixtureVal>
    <FixtureVal ID="11">7,0</FixtureVal>
+   <FixtureVal ID="12">7,0</FixtureVal>
+   <FixtureVal ID="13">2,0</FixtureVal>
+   <FixtureVal ID="14">6,0</FixtureVal>
+   <FixtureVal ID="15">6,0</FixtureVal>
+   <FixtureVal ID="16">2,0</FixtureVal>
+   <FixtureVal ID="17">1,0</FixtureVal>
+   <FixtureVal ID="18">3,0</FixtureVal>
+   <FixtureVal ID="19">3,0</FixtureVal>
+   <FixtureVal ID="20">4,0</FixtureVal>
+   <FixtureVal ID="21">4,0</FixtureVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="23">5,0</FixtureVal>
+   <FixtureVal ID="24">7,0</FixtureVal>
    <FixtureVal ID="25">5,0</FixtureVal>
    <FixtureVal ID="26">5,0</FixtureVal>
+   <FixtureVal ID="27">2,0</FixtureVal>
+   <FixtureVal ID="28">7,0</FixtureVal>
+   <FixtureVal ID="29">1,0</FixtureVal>
+   <FixtureVal ID="30">7,0</FixtureVal>
+   <FixtureVal ID="31">0,0</FixtureVal>
+   <FixtureVal ID="32">0,0</FixtureVal>
+   <FixtureVal ID="33">7,0</FixtureVal>
+   <FixtureVal ID="34">7,0</FixtureVal>
+   <FixtureVal ID="35">7,0</FixtureVal>
+   <FixtureVal ID="36">7,0</FixtureVal>
+   <FixtureVal ID="37">7,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">6,0</FixtureVal>
+   <FixtureVal ID="40">6,0</FixtureVal>
+   <FixtureVal ID="41">6,0</FixtureVal>
+   <FixtureVal ID="42">6,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Group - Color Changers Odd" ID="3">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -609,18 +641,18 @@
    <FixtureVal ID="35">7,0</FixtureVal>
    <FixtureVal ID="37">7,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="FIX Group - Fixtures Left " ID="5">
+  <Function Type="Scene" Name="[FIX] Group - Fixtures Left " ID="5">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="1">6,0</FixtureVal>
+   <FixtureVal ID="1">27,0</FixtureVal>
    <FixtureVal ID="3">1,0</FixtureVal>
    <FixtureVal ID="6">6,0</FixtureVal>
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="11">7,0</FixtureVal>
    <FixtureVal ID="25">5,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="FIX Group - Fixtures Right" ID="6">
+  <Function Type="Scene" Name="[FIX] Group - Fixtures Right" ID="6">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">6,0</FixtureVal>
+   <FixtureVal ID="0">27,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="4">6,0</FixtureVal>
    <FixtureVal ID="12">7,0</FixtureVal>
@@ -745,8 +777,8 @@
   <Function Type="Scene" Name="Color - Magenta - All" ID="15">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <ChannelGroups>0,2,1,3</ChannelGroups>
-   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255,24,0,25,0,26,0,27,255</FixtureVal>
-   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255,24,0,25,0,26,0,27,255</FixtureVal>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,255,6,255,7,0,8,255,9,255,10,0,11,255,12,255,13,0,14,255,15,255,16,0,17,255,18,255,19,0,20,255,21,255,22,0,23,255,24,0,25,0,26,0,27,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,255,6,255,7,0,8,255,9,255,10,0,11,255,12,255,13,0,14,255,15,255,16,0,17,255,18,255,19,0,20,255,21,255,22,0,23,255,24,0,25,0,26,0,27,255</FixtureVal>
    <FixtureVal ID="3">0,71,1,255,2,255</FixtureVal>
    <FixtureVal ID="4">0,255,1,255,2,255,6,255</FixtureVal>
    <FixtureVal ID="5">2,75,5,255</FixtureVal>
@@ -823,8 +855,8 @@
   </Function>
   <Function Type="Scene" Name="Color - Random - All" ID="18">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">24,0,25,255</FixtureVal>
-   <FixtureVal ID="1">24,0,25,255</FixtureVal>
+   <FixtureVal ID="0">6,0,24,0,25,255,26,0,27,255</FixtureVal>
+   <FixtureVal ID="1">6,0,24,0,25,255,26,0,27,255</FixtureVal>
    <FixtureVal ID="3">0,180</FixtureVal>
    <FixtureVal ID="4">5,192</FixtureVal>
    <FixtureVal ID="5">2,180</FixtureVal>
@@ -1204,11 +1236,11 @@
   </Function>
   <Function Type="Scene" Name="Zero - Mega Pixel 1" ID="54">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Zero - Mega Pixel 2" ID="55">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Zero - P36 1" ID="56">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -1241,9 +1273,9 @@
   </Function>
   <Function Type="Scene" Name="Zero - X-Scans" ID="63">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">0,124,1,124,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="10">0,124,1,124,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
-   <FixtureVal ID="26">0,124,1,124,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="5">0,124,1,32,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="10">0,124,1,32,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+   <FixtureVal ID="26">0,124,1,32,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Zero - Micro Washes" ID="64">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -1555,9 +1587,9 @@
   <Function Type="Scene" Name="Color - Red - Broadway Pink - Megas" ID="102">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,224,1,5,2,97,3,224,4,5,5,97,6,224,7,5,8,97,9,224,10,5,11,97,12,224,13,5,14,97,15,224,16,5,17,97,18,224,19,5,20,97,21,224,22,5,23,97,24,0,25,0,26,0,27,255</FixtureVal>
-   <FixtureVal ID="1">0,244,1,5,2,97,3,224,4,5,5,97,6,224,7,5,8,97,9,224,10,5,11,97,12,224,13,5,14,97,15,224,16,5,17,97,18,224,19,5,20,97,21,224,22,5,23,97,24,0,25,0,26,0,27,255</FixtureVal>
-   <FixtureVal ID="14">0,224,1,5,2,97</FixtureVal>
-   <FixtureVal ID="15">0,224,1,5,2,97</FixtureVal>
+   <FixtureVal ID="1">0,224,1,5,2,97,3,224,4,5,5,97,6,224,7,5,8,97,9,224,10,5,11,97,12,224,13,5,14,97,15,224,16,5,17,97,18,224,19,5,20,97,21,224,22,5,23,97,24,0,25,0,26,0,27,255</FixtureVal>
+   <FixtureVal ID="14">0,224,1,5,2,97,6,255</FixtureVal>
+   <FixtureVal ID="15">0,224,1,5,2,97,6,255</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="Megas - Chase - Magenta/Yellow" ID="103">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -1656,13 +1688,13 @@
    <Fixture>
     <ID>5</ID>
     <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
+    <StartOffset>30</StartOffset>
     <Intensity>255</Intensity>
    </Fixture>
    <Fixture>
     <ID>26</ID>
     <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
+    <StartOffset>60</StartOffset>
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Asymmetric</PropagationMode>
@@ -1687,9 +1719,9 @@
   </Function>
   <Function Type="Scene" Name="Group - X-Scans" ID="119">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">0,128,1,128</FixtureVal>
-   <FixtureVal ID="10">0,128,1,128</FixtureVal>
-   <FixtureVal ID="26">0,128,1,128</FixtureVal>
+   <FixtureVal ID="5">0,128,1,32</FixtureVal>
+   <FixtureVal ID="10">0,128,1,32</FixtureVal>
+   <FixtureVal ID="26">0,128,1,32</FixtureVal>
   </Function>
   <Function Type="Scene" Name="X-Scans - Chase - Stabs 1" ID="120">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -1930,31 +1962,31 @@
    <Fixture>
     <ID>5</ID>
     <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
+    <StartOffset>90</StartOffset>
     <Intensity>255</Intensity>
    </Fixture>
    <Fixture>
     <ID>26</ID>
     <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
+    <StartOffset>270</StartOffset>
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Serial</PropagationMode>
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
+   <RunOrder>PingPong</RunOrder>
    <Algorithm>Diamond</Algorithm>
    <Width>64</Width>
-   <Height>64</Height>
-   <Rotation>45</Rotation>
+   <Height>90</Height>
+   <Rotation>90</Rotation>
    <StartOffset>0</StartOffset>
    <Axis Name="X">
-    <Offset>127</Offset>
+    <Offset>128</Offset>
     <Frequency>2</Frequency>
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>48</Offset>
+    <Offset>64</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -2711,10 +2743,10 @@
    <FixtureVal ID="1">24,242,25,255,27,255</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="All - Chase - Rainbow Fade" ID="259">
-   <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="2000" FadeOut="1000" FadeIn="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">12</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">14</Step>
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">13</Step>
