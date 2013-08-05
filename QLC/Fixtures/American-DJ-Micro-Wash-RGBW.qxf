@@ -1,8 +1,8 @@
 <!DOCTYPE FixtureDefinition>
 <FixtureDefinition>
  <Creator>
-  <Name>Q Light Controller</Name>
-  <Version>3.2.0-1-r2457</Version>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0</Version>
   <Author>withlime</Author>
  </Creator>
  <Manufacturer>American DJ</Manufacturer>
@@ -64,7 +64,7 @@
  </Channel>
  <Channel Name="White">
   <Group Byte="0">Intensity</Group>
-  <Colour>Yellow</Colour>
+  <Colour>White</Colour>
   <Capability Min="0" Max="255">White 0% -> 100%</Capability>
  </Channel>
  <Channel Name="Strobe">
