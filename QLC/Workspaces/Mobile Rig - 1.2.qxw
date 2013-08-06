@@ -163,7 +163,7 @@
    <ID>15</ID>
    <Name>Mega Par Profile #2</Name>
    <Universe>0</Universe>
-   <Address>20</Address>
+   <Address>19</Address>
    <Channels>7</Channels>
   </Fixture>
   <Fixture>
@@ -436,6 +436,26 @@
    <Address>400</Address>
    <Channels>10</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Bar</Model>
+   <Mode>2 Channel</Mode>
+   <ID>43</ID>
+   <Name>Mega Tri Bar #1</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Bar</Model>
+   <Mode>2 Channel</Mode>
+   <ID>44</ID>
+   <Name>Mega Tri Bar #2</Name>
+   <Universe>0</Universe>
+   <Address>28</Address>
+   <Channels>2</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>Color Washers</Name>
    <Size X="1" Y="1"/>
@@ -516,6 +536,8 @@
    <Head Fixture="4" X="0" Y="74">0</Head>
    <Head Fixture="23" X="0" Y="75">0</Head>
    <Head Fixture="3" X="0" Y="76">0</Head>
+   <Head Fixture="43" X="0" Y="77">0</Head>
+   <Head Fixture="44" X="0" Y="78">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="1">
    <Name>Scanners</Name>
@@ -1503,7 +1525,7 @@
    <FixtureVal ID="14">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="15">0,255,1,0,2,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Kicks" ID="88">
+  <Function Type="Chaser" Name="X-Scans - Kicks" ID="88">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1515,7 +1537,7 @@
    <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">116</Step>
    <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">117</Step>
   </Function>
-  <Function Type="Chaser" Name="Megas - Chase - Cold" ID="89">
+  <Function Type="Chaser" Name="Megas - Cold" ID="89">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1589,7 +1611,7 @@
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">76</Step>
    <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">95</Step>
   </Function>
-  <Function Type="Chaser" Name="Megas - Chase - Blues" ID="99">
+  <Function Type="Chaser" Name="Megas - Blues" ID="99">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1598,7 +1620,7 @@
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">79</Step>
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">78</Step>
   </Function>
-  <Function Type="Chaser" Name="Megas - Chase - 7 Color" ID="100">
+  <Function Type="Chaser" Name="Megas - 7 Color" ID="100">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1643,7 +1665,7 @@
    <FixtureVal ID="14">4,255,5,240,6,255</FixtureVal>
    <FixtureVal ID="15">4,255,5,240,6,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Megas - Chase - Blue/Green" ID="105">
+  <Function Type="Chaser" Name="Megas - Blue/Green" ID="105">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1651,7 +1673,7 @@
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">76</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">91</Step>
   </Function>
-  <Function Type="Chaser" Name="Megas - Chase - Blue/Cyan" ID="106">
+  <Function Type="Chaser" Name="Megas - Blue/Cyan" ID="106">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1784,7 +1806,7 @@
    <FixtureVal ID="10">0,144,1,32,4,255,5,64</FixtureVal>
    <FixtureVal ID="26">0,112,1,32,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Stabs" ID="124">
+  <Function Type="Chaser" Name="X-Scans - Stabs" ID="124">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -1809,7 +1831,7 @@
    <FixtureVal ID="10">0,144,1,32,3,51,4,255,5,0</FixtureVal>
    <FixtureVal ID="26">0,112,1,32,3,51,4,255,5,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Fireworks" ID="128">
+  <Function Type="Chaser" Name="X-Scans - Fireworks" ID="128">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1887,7 +1909,7 @@
    <FixtureVal ID="10">3,22</FixtureVal>
    <FixtureVal ID="26">3,22</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Gobo Rocker" ID="140">
+  <Function Type="Chaser" Name="X-Scans - Gobo Rocker" ID="140">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1907,7 +1929,7 @@
    <FixtureVal ID="10">0,80,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,160,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Kings X" ID="143">
+  <Function Type="Chaser" Name="X-Scans - Kings X" ID="143">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -1965,7 +1987,7 @@
    <FixtureVal ID="10">0,144,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,112,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Wave" ID="150">
+  <Function Type="Chaser" Name="X-Scans - Wave" ID="150">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2070,7 +2092,7 @@
    <FixtureVal ID="10">0,96,1,96,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,96,1,96,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Flying V" ID="161">
+  <Function Type="Chaser" Name="X-Scans - Flying V" ID="161">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2136,7 +2158,7 @@
    <FixtureVal ID="10">0,134,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,96,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - Sweep" ID="171">
+  <Function Type="Chaser" Name="X-Scans - Sweep" ID="171">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -2193,7 +2215,7 @@
    <FixtureVal ID="14">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="15">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Color - 7 Color Mix" ID="174">
+  <Function Type="Chaser" Name="7 Color Mix - X-Scans" ID="174">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2324,7 +2346,7 @@
    <FixtureVal ID="36">0,0,1,255,2,255,7,255</FixtureVal>
    <FixtureVal ID="37">0,0,1,255,2,255,7,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Color - 7 Mix - Micro Washes" ID="186">
+  <Function Type="Chaser" Name="7 Color Mix - Micro Washes" ID="186">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2351,7 +2373,7 @@
    <FixtureVal ID="36">0,192,1,255,2,0,7,255</FixtureVal>
    <FixtureVal ID="37">0,192,1,255,2,0,7,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Color - 7 Color Mix - All" ID="188">
+  <Function Type="Chaser" Name="7 Color Mix - All" ID="188">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2539,15 +2561,15 @@
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 1" ID="219">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">6,15</FixtureVal>
-   <FixtureVal ID="10">6,8</FixtureVal>
-   <FixtureVal ID="26">6,8</FixtureVal>
+   <FixtureVal ID="5">6,15,7,192</FixtureVal>
+   <FixtureVal ID="10">6,15,7,192</FixtureVal>
+   <FixtureVal ID="26">6,15,7,192</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 2" ID="220">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">6,29</FixtureVal>
-   <FixtureVal ID="10">6,29</FixtureVal>
-   <FixtureVal ID="26">6,29</FixtureVal>
+   <FixtureVal ID="5">6,29,7,192</FixtureVal>
+   <FixtureVal ID="10">6,29,7,192</FixtureVal>
+   <FixtureVal ID="26">6,29,7,192</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 3" ID="221">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -2593,21 +2615,21 @@
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 10" ID="228">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">6,197</FixtureVal>
-   <FixtureVal ID="10">6,197</FixtureVal>
-   <FixtureVal ID="26">6,197</FixtureVal>
+   <FixtureVal ID="5">6,197,7,192</FixtureVal>
+   <FixtureVal ID="10">6,197,7,192</FixtureVal>
+   <FixtureVal ID="26">6,197,7,192</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 11" ID="229">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">6,218</FixtureVal>
-   <FixtureVal ID="10">6,218</FixtureVal>
-   <FixtureVal ID="26">6,218</FixtureVal>
+   <FixtureVal ID="5">6,218,7,192</FixtureVal>
+   <FixtureVal ID="10">6,218,7,192</FixtureVal>
+   <FixtureVal ID="26">6,218,7,192</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement 12" ID="230">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="5">6,239</FixtureVal>
-   <FixtureVal ID="10">6,239</FixtureVal>
-   <FixtureVal ID="26">6,239</FixtureVal>
+   <FixtureVal ID="5">6,239,7,192</FixtureVal>
+   <FixtureVal ID="10">6,239,7,192</FixtureVal>
+   <FixtureVal ID="26">6,239,7,192</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Movement - X-Scans - Movement Off" ID="231">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -2699,11 +2721,11 @@
    <FixtureVal ID="10">3,0,4,0</FixtureVal>
    <FixtureVal ID="26">3,0,4,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="X-Scans - Chase - M1-12" ID="239">
-   <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
+  <Function Type="Chaser" Name="X-Scans - M1-12" ID="239">
+   <Speed Duration="4000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
-   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">234</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">219</Step>
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">220</Step>
@@ -2721,6 +2743,7 @@
   <Function Type="Scene" Name="Mega Pixels - Macro - Show 1 Sound" ID="240">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">24,29,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,29,25,255,27,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Mega Pixels - Macro - Show 2 Sound" ID="241">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
@@ -2798,32 +2821,32 @@
    <FixtureVal ID="37">7,64</FixtureVal>
    <FixtureVal ID="38">0,64</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 01" ID="246">
+  <Function Type="Scene" Name="Chase - Kitt - 01" ID="246">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 02" ID="247">
+  <Function Type="Scene" Name="Chase - Kitt - 02" ID="247">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 03" ID="248">
+  <Function Type="Scene" Name="Chase - Kitt - 03" ID="248">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 04" ID="249">
+  <Function Type="Scene" Name="Chase - Kitt - 04" ID="249">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 05" ID="250">
+  <Function Type="Scene" Name="Chase - Kitt - 05" ID="250">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,255,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Mega Pixels - Chase - Kitt - Red" ID="251">
+  <Function Type="Chaser" Name="Mega Pixels - Kitt - Red" ID="251">
    <Speed Duration="80" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -2873,7 +2896,7 @@
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">24,242,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="All - Chase - Rainbow Fade" ID="259">
+  <Function Type="Chaser" Name="Rainbow Fade - All" ID="259">
    <Speed Duration="2000" FadeOut="1000" FadeIn="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2940,7 +2963,7 @@
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="29">0,96,1,135</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Micros - Chase - Rainbow Fade" ID="266">
+  <Function Type="Chaser" Name="Rainbow Fade - Micros" ID="266">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2961,7 +2984,7 @@
    <FixtureVal ID="10">0,37,1,47,5,0</FixtureVal>
    <FixtureVal ID="26">0,67,1,23</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 06" ID="269">
+  <Function Type="Scene" Name="Chase - Kitt - 06" ID="269">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
@@ -2982,55 +3005,118 @@
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="29">0,0,1,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 07" ID="274">
+  <Function Type="Scene" Name="Chase - Kitt - 07" ID="274">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 08" ID="275">
+  <Function Type="Scene" Name="Chase - Kitt - 08" ID="275">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,255,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 09" ID="276">
+  <Function Type="Scene" Name="Chase - Kitt - 09" ID="276">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,255,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 10" ID="277">
+  <Function Type="Scene" Name="Chase - Kitt - 10" ID="277">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 11" ID="278">
+  <Function Type="Scene" Name="Chase - Kitt - 11" ID="278">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 12" ID="279">
+  <Function Type="Scene" Name="Chase - Kitt - 12" ID="279">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,255,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 13" ID="280">
+  <Function Type="Scene" Name="Chase - Kitt - 13" ID="280">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 14" ID="281">
+  <Function Type="Scene" Name="Chase - Kitt - 14" ID="281">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 15" ID="282">
+  <Function Type="Scene" Name="Chase - Kitt - 15" ID="282">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Kitt - 16" ID="283">
+  <Function Type="Scene" Name="Chase - Kitt - 16" ID="283">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 01" ID="284">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 02" ID="285">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 03" ID="286">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 04" ID="287">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 05" ID="288">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,255,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,255,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 06" ID="289">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 07" ID="290">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 08" ID="291">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,255,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,255,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase - Kitt Dbl - 09" ID="292">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,255,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Mega Pixels - Kitt Dbl" ID="300">
+   <Speed Duration="100" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">284</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">285</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">286</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">287</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">288</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">289</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">290</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">291</Step>
+  </Function>
+  <Function Type="Scene" Name="Mega Tri Bar" ID="301">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="43">0,93,1,255,2,255</FixtureVal>
   </Function>
  </Engine>
  <VirtualConsole>
