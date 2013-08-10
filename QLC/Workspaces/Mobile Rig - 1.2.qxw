@@ -1559,7 +1559,7 @@
    <FixtureVal ID="14">0,255,1,0,2,255,6,255</FixtureVal>
    <FixtureVal ID="15">0,255,1,0,2,255,6,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Kicks" ID="88">
+  <Function Type="Chaser" Name="Chase | X-Scans | Kicks" ID="88">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1571,7 +1571,7 @@
    <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">116</Step>
    <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">117</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Cold" ID="89">
+  <Function Type="Chaser" Name="Chase | Megas | Cold" ID="89">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1627,7 +1627,7 @@
    <FixtureVal ID="14">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="15">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Red/Blue" ID="97">
+  <Function Type="Chaser" Name="Chase | Megas | Red/Blue" ID="97">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1635,7 +1635,7 @@
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">77</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">76</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - R/W/B/W" ID="98">
+  <Function Type="Chaser" Name="Chase | Megas | R/W/B/W" ID="98">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1645,7 +1645,7 @@
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">76</Step>
    <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">95</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Blues" ID="99">
+  <Function Type="Chaser" Name="Chase | Megas | Blues" ID="99">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1667,7 +1667,7 @@
    <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">91</Step>
    <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">84</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Warm" ID="101">
+  <Function Type="Chaser" Name="Chase | Megas | Warm" ID="101">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1684,7 +1684,7 @@
    <FixtureVal ID="14">0,224,1,5,2,97,6,255</FixtureVal>
    <FixtureVal ID="15">0,224,1,5,2,97,6,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Magenta/Yellow" ID="103">
+  <Function Type="Chaser" Name="Chase | Megas | Magenta/Yellow" ID="103">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1701,7 +1701,7 @@
    <FixtureVal ID="43">0,255,1,192</FixtureVal>
    <FixtureVal ID="44">0,255,1,192</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Blue/Green" ID="105">
+  <Function Type="Chaser" Name="Chase | Megas | Blue/Green" ID="105">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1709,7 +1709,7 @@
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">76</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">91</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Blue/Cyan" ID="106">
+  <Function Type="Chaser" Name="Chase | Megas | Blue/Cyan" ID="106">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1773,7 +1773,7 @@
    <FixtureVal ID="10">0,128,1,0,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,128,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="EFX" Name="EFX | Ballyhoo - X-Scans" ID="118">
+  <Function Type="EFX" Name="EFX | Ballyhoo | X-Scans" ID="118">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -1842,7 +1842,7 @@
    <FixtureVal ID="10">0,144,1,32,4,255,5,64</FixtureVal>
    <FixtureVal ID="26">0,112,1,32,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Stabs" ID="124">
+  <Function Type="Chaser" Name="Chase | X-Scans | Stabs" ID="124">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -1945,7 +1945,7 @@
    <FixtureVal ID="10">3,22</FixtureVal>
    <FixtureVal ID="26">3,22</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Gobo Rocker" ID="140">
+  <Function Type="Chaser" Name="Chase | X-Scans | Gobo Rocker" ID="140">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1965,7 +1965,7 @@
    <FixtureVal ID="10">0,80,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,160,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Kings X" ID="143">
+  <Function Type="Chaser" Name="Chase | X-Scans | Kings X" ID="143">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -2023,7 +2023,7 @@
    <FixtureVal ID="10">0,144,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,112,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Wave" ID="150">
+  <Function Type="Chaser" Name="Chase | X-Scans | Wave" ID="150">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2047,7 +2047,7 @@
    <FixtureVal ID="10">0,144,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,112,1,0,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="EFX" Name="EFX | Diamonds - X-Scans" ID="153">
+  <Function Type="EFX" Name="EFX | Diamonds | X-Scans" ID="153">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -2156,7 +2156,7 @@
    <FixtureVal ID="10">4,0,7,0</FixtureVal>
    <FixtureVal ID="26">4,0,7,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Shutter - Beat Pulse" ID="165">
+  <Function Type="Chaser" Name="Chase | X-Scans | Shutter | Beat Pulse" ID="165">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2194,7 +2194,7 @@
    <FixtureVal ID="10">0,134,1,80,4,255,5,255</FixtureVal>
    <FixtureVal ID="26">0,96,1,80,4,255,5,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - Sweep" ID="171">
+  <Function Type="Chaser" Name="Chase | X-Scans | Sweep" ID="171">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -2205,7 +2205,7 @@
    <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">169</Step>
    <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">170</Step>
   </Function>
-  <Function Type="EFX" Name="EFX | Diagonal - X-Scans" ID="172">
+  <Function Type="EFX" Name="EFX | Diagonal | X-Scans" ID="172">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -2263,7 +2263,7 @@
    <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">132</Step>
    <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">134</Step>
   </Function>
-  <Function Type="Chaser" Name="Chase | Megas - Beat Pulse" ID="175">
+  <Function Type="Chaser" Name="Chase | Megas | Beat Pulse" ID="175">
    <Speed Duration="950" FadeOut="500" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -2477,7 +2477,7 @@
    <FixtureVal ID="6">0,255,1,0,2,0,4,0,5,111,6,255</FixtureVal>
    <FixtureVal ID="23">0,255,1,0,2,0,4,0,5,111</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - Red - 1" ID="199">
+  <Function Type="Scene" Name="Chase | Wash | Red | 1" ID="199">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,8,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="6">0,8,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
@@ -2485,14 +2485,14 @@
    <FixtureVal ID="23">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="29">0,8,1,120</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - Red - 2" ID="200">
+  <Function Type="Scene" Name="Chase | Wash | Red | 2" ID="200">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
    <FixtureVal ID="6">0,8,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
    <FixtureVal ID="23">0,8,1,0,2,0,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="29">0,8,1,120</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - Red - 3" ID="201">
+  <Function Type="Scene" Name="Chase | Wash | Red | 3" ID="201">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,8,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
    <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
@@ -2510,7 +2510,7 @@
    <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">201</Step>
    <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">203</Step>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - Red - 4" ID="203">
+  <Function Type="Scene" Name="Chase | Wash | Red | 4" ID="203">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,8,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
    <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,0,6,255</FixtureVal>
@@ -2521,7 +2521,7 @@
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="17">0,20,1,0,2,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - RWG - 1" ID="205">
+  <Function Type="Scene" Name="Chase | Wash | Red White Green | 1" ID="205">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="6">0,0,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
@@ -2529,7 +2529,7 @@
    <FixtureVal ID="15">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="23">0,255,1,255,2,255,3,0,4,0,5,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - RWG - 2" ID="206">
+  <Function Type="Scene" Name="Chase | Wash | Red White Green | 2" ID="206">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,0,1,255,2,0,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="6">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
@@ -2537,7 +2537,7 @@
    <FixtureVal ID="15">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="23">0,255,1,0,2,0,3,0,4,0,5,0</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Chase | Wash - RWG - 3" ID="207">
+  <Function Type="Scene" Name="Chase | Wash | Red White Green | 3" ID="207">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="4">0,255,1,255,2,255,3,0,4,0,5,0,6,0</FixtureVal>
    <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
@@ -2711,7 +2711,7 @@
    <FixtureVal ID="10">7,255</FixtureVal>
    <FixtureVal ID="26">7,255</FixtureVal>
   </Function>
-  <Function Type="EFX" Name="EFX | Derby - X-Scans" ID="236">
+  <Function Type="EFX" Name="EFX | Derby | X-Scans" ID="236">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -2771,7 +2771,7 @@
    <FixtureVal ID="10">3,0,4,0</FixtureVal>
    <FixtureVal ID="26">3,0,4,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | X-Scans - M1-12" ID="239">
+  <Function Type="Chaser" Name="Chase | X-Scans | M1-12" ID="239">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -3210,7 +3210,7 @@
    <FixtureVal ID="39">2,255,3,39,6,255</FixtureVal>
    <FixtureVal ID="40">2,255,3,39,6,255</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="Chase | Mega Pixels - Kitt Dbl" ID="300">
+  <Function Type="Chaser" Name="Chase | Mega Pixels | Kitt Double" ID="300">
    <Speed Duration="330" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -3254,7 +3254,7 @@
    <FixtureVal ID="39">2,255,3,225,6,255</FixtureVal>
    <FixtureVal ID="40">2,255,3,225,6,255</FixtureVal>
   </Function>
-  <Function Type="EFX" Name="EFX | Diagonal - Inno Scans" ID="308">
+  <Function Type="EFX" Name="EFX | Diagonal | Inno Scans" ID="308">
    <Fixture>
     <ID>39</ID>
     <Direction>Forward</Direction>
@@ -3287,7 +3287,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function Type="EFX" Name="EFX | Figure 8 - Inno Scans" ID="309">
+  <Function Type="EFX" Name="EFX | Figure 8 | Inno Scans" ID="309">
    <Fixture>
     <ID>39</ID>
     <Direction>Forward</Direction>
@@ -3320,7 +3320,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function Type="EFX" Name="EFX | Ballyhoo - Inno Scans" ID="310">
+  <Function Type="EFX" Name="EFX | Ballyhoo | Inno Scans" ID="310">
    <Fixture>
     <ID>39</ID>
     <Direction>Forward</Direction>
@@ -3353,7 +3353,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function Type="EFX" Name="EFX | Derby - All Scans" ID="311">
+  <Function Type="EFX" Name="EFX | Derby | All Scans" ID="311">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -3404,7 +3404,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function Type="EFX" Name="EFX | Derby - Inno Scans" ID="312">
+  <Function Type="EFX" Name="EFX | Derby | Inno Scans" ID="312">
    <Fixture>
     <ID>39</ID>
     <Direction>Forward</Direction>
@@ -3437,7 +3437,7 @@
     <Phase>0</Phase>
    </Axis>
   </Function>
-  <Function Type="EFX" Name="EFX | Diamonds - All Scans" ID="313">
+  <Function Type="EFX" Name="EFX | Diamonds | All Scans" ID="313">
    <Fixture>
     <ID>10</ID>
     <Direction>Forward</Direction>
@@ -3724,39 +3724,11 @@
    <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">329</Step>
    <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">330</Step>
   </Function>
-  <Function Type="Scene" Name="Chase - Wave - BY 01" ID="332">
-   <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="11">0,0,1,0,2,255,3,0,7,255</FixtureVal>
-   <FixtureVal ID="12">0,192,1,255,2,0,7,255</FixtureVal>
-   <FixtureVal ID="24">0,192,1,255,2,0,7,255</FixtureVal>
-   <FixtureVal ID="28">0,0,1,0,2,255,7,255</FixtureVal>
-   <FixtureVal ID="30">7,0</FixtureVal>
-   <FixtureVal ID="33">7,0</FixtureVal>
-   <FixtureVal ID="34">7,0</FixtureVal>
-   <FixtureVal ID="35">7,0</FixtureVal>
-   <FixtureVal ID="36">7,0</FixtureVal>
-   <FixtureVal ID="37">7,0</FixtureVal>
-  </Function>
-  <Function Type="Scene" Name="Chase - Wave - BY 02" ID="333">
-   <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="11">0,192,1,255,2,0,3,0,7,255</FixtureVal>
-   <FixtureVal ID="12">0,0,1,0,2,255,7,255</FixtureVal>
-   <FixtureVal ID="24">0,0,1,0,2,255,7,255</FixtureVal>
-   <FixtureVal ID="28">0,192,1,255,2,0,7,255</FixtureVal>
-   <FixtureVal ID="30">7,0</FixtureVal>
-   <FixtureVal ID="33">7,0</FixtureVal>
-   <FixtureVal ID="34">7,0</FixtureVal>
-   <FixtureVal ID="35">7,0</FixtureVal>
-   <FixtureVal ID="36">7,0</FixtureVal>
-   <FixtureVal ID="37">7,0</FixtureVal>
-  </Function>
   <Function Type="Chaser" Name="Chase | Micros | Wave B-Y" ID="334">
    <Speed Duration="70" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
-   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">332</Step>
-   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">333</Step>
   </Function>
   <Function Type="Scene" Name="Chase | Wave | 01" ID="335">
    <Speed Duration="1840" FadeOut="0" FadeIn="0"/>
