@@ -1,5 +1,5 @@
 <!DOCTYPE Workspace>
-<Workspace CurrentWindow="VirtualConsole">
+<Workspace CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.4.0</Version>
@@ -2790,14 +2790,15 @@
    <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">229</Step>
    <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">230</Step>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 1 Sound" ID="240">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 1 + Sound" ID="240">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,29,25,255,27,255</FixtureVal>
    <FixtureVal ID="1">24,29,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 2 Sound" ID="241">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 2 + Sound" ID="241">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,57,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,57,25,255,27,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Sound Active | Puck Fab 5 | ON" ID="242">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
@@ -2918,33 +2919,40 @@
    <Step Number="14" FadeOut="0" FadeIn="0" Hold="100">282</Step>
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="100">283</Step>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 3 Sound" ID="252">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 3 + Sound" ID="252">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,86,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,86,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 4 Sound" ID="253">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 4 + Sound" ID="253">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,114,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,114,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 5 Sound" ID="254">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 5 + Sound" ID="254">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,142,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,142,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 6 Sound" ID="255">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 6 + Sound" ID="255">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,188,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,188,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 7 Sound" ID="256">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 7 + Sound" ID="256">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,211,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,211,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 8 Sound" ID="257">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 8 + Sound" ID="257">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,227,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,227,25,255,27,255</FixtureVal>
   </Function>
-  <Function Type="Scene" Name="Mega Pixels - Macro - Show 9 Sound" ID="258">
+  <Function Type="Scene" Name="Macro | Mega Pixels | Show | 9 + Sound" ID="258">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
    <FixtureVal ID="0">24,242,25,255,27,255</FixtureVal>
+   <FixtureVal ID="1">24,242,25,255,27,255</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="Chase | Rainbow Fade | All" ID="259">
    <Speed Duration="950" FadeOut="0" FadeIn="70"/>
@@ -3223,6 +3231,29 @@
    <Step Number="5" FadeOut="0" FadeIn="0" Hold="150">289</Step>
    <Step Number="6" FadeOut="0" FadeIn="0" Hold="150">290</Step>
    <Step Number="7" FadeOut="0" FadeIn="0" Hold="150">291</Step>
+  </Function>
+  <Function Type="Scene" Name="Scene | 1 x 3 |" ID="301">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="9">0,4</FixtureVal>
+   <FixtureVal ID="11">7,0</FixtureVal>
+   <FixtureVal ID="12">7,0</FixtureVal>
+   <FixtureVal ID="24">7,0</FixtureVal>
+   <FixtureVal ID="28">7,0</FixtureVal>
+   <FixtureVal ID="29">0,3</FixtureVal>
+   <FixtureVal ID="30">7,0</FixtureVal>
+   <FixtureVal ID="31">0,0</FixtureVal>
+   <FixtureVal ID="32">0,0</FixtureVal>
+   <FixtureVal ID="33">7,0</FixtureVal>
+   <FixtureVal ID="34">7,0</FixtureVal>
+   <FixtureVal ID="35">7,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">6,0</FixtureVal>
+   <FixtureVal ID="40">6,0</FixtureVal>
+   <FixtureVal ID="41">6,0</FixtureVal>
+   <FixtureVal ID="42">6,0</FixtureVal>
+   <FixtureVal ID="43">0,5</FixtureVal>
+   <FixtureVal ID="44">0,5</FixtureVal>
+   <FixtureVal ID="45">0,3</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Color | Yellow | Inno Scans" ID="302">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -4760,7 +4791,7 @@
     <Action>Flash</Action>
     <Intensity Adjust="True">100</Intensity>
     <Input Universe="0" Channel="167"/>
-    <WindowState Width="50" X="240" Y="415" Height="35" Visible="True"/>
+    <WindowState Width="50" X="240" Y="415" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4773,7 +4804,7 @@
     <Function ID="38"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="290" Y="415" Height="35" Visible="True"/>
+    <WindowState Width="35" X="290" Y="415" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -4783,7 +4814,7 @@
     </Appearance>
    </Button>
    <Label ID="470" Caption="All">
-    <WindowState Width="36" X="4" Y="8" Height="28" Visible="True"/>
+    <WindowState Width="36" X="4" Y="8" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4793,7 +4824,7 @@
     </Appearance>
    </Label>
    <Label ID="479" Caption="Mega Pixels">
-    <WindowState Width="84" X="755" Y="0" Height="32" Visible="True"/>
+    <WindowState Width="84" X="755" Y="0" Height="32" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4806,7 +4837,7 @@
     <Function ID="103"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="930" Y="275" Height="35" Visible="True"/>
+    <WindowState Width="50" X="930" Y="275" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4819,7 +4850,7 @@
     <Function ID="106"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="880" Y="305" Height="30" Visible="True"/>
+    <WindowState Width="50" X="880" Y="305" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4829,7 +4860,7 @@
     </Appearance>
    </Button>
    <Label ID="485" Caption="X-Scans">
-    <WindowState Width="72" X="45" Y="70" Height="28" Visible="True"/>
+    <WindowState Width="72" X="45" Y="70" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4843,7 +4874,7 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="135"/>
-    <WindowState Width="85" X="1070" Y="210" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="210" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4856,7 +4887,7 @@
     <Function ID="60"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="210" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="210" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -4870,7 +4901,7 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="134"/>
-    <WindowState Width="85" X="1070" Y="175" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="175" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4883,7 +4914,7 @@
     <Function ID="61"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="175" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="175" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -4896,8 +4927,7 @@
     <Function ID="104"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="133"/>
-    <WindowState Width="85" X="1070" Y="10" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="10" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4910,7 +4940,7 @@
     <Function ID="96"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="10" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="10" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4293322470</ForegroundColor>
@@ -4920,7 +4950,7 @@
     </Appearance>
    </Button>
    <Slider WidgetStyle="Slider" ID="505" Caption="Dim" InvertedAppearance="false">
-    <WindowState Width="60" X="885" Y="25" Height="180" Visible="True"/>
+    <WindowState Width="60" X="885" Y="25" Height="180" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4938,7 +4968,7 @@
     </Playback>
    </Slider>
    <Slider WidgetStyle="Slider" ID="507" Caption="Dim" InvertedAppearance="false">
-    <WindowState Width="60" X="950" Y="25" Height="180" Visible="True"/>
+    <WindowState Width="60" X="950" Y="25" Height="180" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4963,7 +4993,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="730" Y="25" Height="180" Visible="True"/>
+    <WindowState Width="140" X="730" Y="25" Height="180" Visible="False"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4972,7 +5002,7 @@
      <Function ID="43"/>
      <Action>Toggle</Action>
      <Intensity Adjust="True">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4985,7 +5015,7 @@
      <Function ID="95"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4998,7 +5028,7 @@
      <Function ID="96"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -5011,7 +5041,7 @@
      <Function ID="77"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5024,7 +5054,7 @@
      <Function ID="91"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5037,7 +5067,7 @@
      <Function ID="76"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5050,7 +5080,7 @@
      <Function ID="84"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5063,7 +5093,7 @@
      <Function ID="93"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5076,7 +5106,7 @@
      <Function ID="87"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5089,7 +5119,7 @@
      <Function ID="94"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5102,7 +5132,7 @@
      <Function ID="100"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5115,7 +5145,7 @@
      <Function ID="386"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -5129,7 +5159,7 @@
     <Function ID="97"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="880" Y="275" Height="30" Visible="True"/>
+    <WindowState Width="50" X="880" Y="275" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5142,7 +5172,7 @@
     <Function ID="98"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="880" Y="245" Height="30" Visible="True"/>
+    <WindowState Width="50" X="880" Y="245" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5155,7 +5185,7 @@
     <Function ID="99"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="930" Y="245" Height="30" Visible="True"/>
+    <WindowState Width="50" X="930" Y="245" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5168,7 +5198,7 @@
     <Function ID="100"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="48" X="980" Y="215" Height="32" Visible="True"/>
+    <WindowState Width="48" X="980" Y="215" Height="32" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5181,7 +5211,7 @@
     <Function ID="89"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="930" Y="215" Height="30" Visible="True"/>
+    <WindowState Width="50" X="930" Y="215" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5194,7 +5224,7 @@
     <Function ID="101"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="880" Y="215" Height="30" Visible="True"/>
+    <WindowState Width="50" X="880" Y="215" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5207,7 +5237,7 @@
     <Function ID="105"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="930" Y="305" Height="30" Visible="True"/>
+    <WindowState Width="50" X="930" Y="305" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5220,8 +5250,7 @@
     <Function ID="88"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="170"/>
-    <WindowState Width="65" X="215" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="215" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5234,8 +5263,7 @@
     <Function ID="118"/>
     <Action>Toggle</Action>
     <Intensity Adjust="True">100</Intensity>
-    <Input Universe="0" Channel="169"/>
-    <WindowState Width="65" X="20" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="20" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5248,7 +5276,7 @@
     <Function ID="124"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="85" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="85" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5261,7 +5289,7 @@
     <Function ID="128"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="20" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="20" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5274,8 +5302,7 @@
     <Function ID="83"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="132"/>
-    <WindowState Width="85" X="1070" Y="45" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="45" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5288,7 +5315,7 @@
     <Function ID="86"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="45" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="45" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -5302,7 +5329,7 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="168"/>
-    <WindowState Width="65" X="150" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="150" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5315,7 +5342,7 @@
     <Function ID="150"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="85" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="85" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5328,7 +5355,7 @@
     <Function ID="153"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="215" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="215" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5341,7 +5368,7 @@
     <Function ID="161"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="345" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="345" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5354,7 +5381,7 @@
     <Function ID="163"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="425" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="425" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5364,7 +5391,7 @@
     </Appearance>
    </Button>
    <Slider WidgetStyle="Slider" ID="551" Caption="Strobe" InvertedAppearance="false">
-    <WindowState Width="65" X="635" Y="100" Height="220" Visible="True"/>
+    <WindowState Width="65" X="635" Y="100" Height="220" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5386,7 +5413,7 @@
     <Function ID="165"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="495" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="495" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5399,8 +5426,7 @@
     <Function ID="171"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="171"/>
-    <WindowState Width="65" X="280" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="280" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5413,7 +5439,7 @@
     <Function ID="172"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="280" Y="355" Height="30" Visible="True"/>
+    <WindowState Width="65" X="280" Y="355" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5426,7 +5452,7 @@
     <Function ID="175"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="980" Y="305" Height="30" Visible="True"/>
+    <WindowState Width="50" X="980" Y="305" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5436,7 +5462,7 @@
     </Appearance>
    </Button>
    <Label ID="558" Caption="M Pix">
-    <WindowState Width="45" X="890" Y="0" Height="30" Visible="True"/>
+    <WindowState Width="45" X="890" Y="0" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5446,7 +5472,7 @@
     </Appearance>
    </Label>
    <Label ID="559" Caption="M Par">
-    <WindowState Width="50" X="950" Y="0" Height="30" Visible="True"/>
+    <WindowState Width="50" X="950" Y="0" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5456,7 +5482,7 @@
     </Appearance>
    </Label>
    <Label ID="560" Caption="Micro Washes">
-    <WindowState Width="100" X="735" Y="360" Height="28" Visible="True"/>
+    <WindowState Width="100" X="735" Y="360" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5469,8 +5495,7 @@
     <Function ID="183"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="132"/>
-    <WindowState Width="85" X="1070" Y="115" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="115" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5483,7 +5508,7 @@
     <Function ID="56"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="115" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="115" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -5500,7 +5525,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="715" Y="390" Height="180" Visible="True"/>
+    <WindowState Width="140" X="715" Y="390" Height="180" Visible="False"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -5509,7 +5534,7 @@
      <Function ID="180"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5522,7 +5547,7 @@
      <Function ID="178"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5535,7 +5560,7 @@
      <Function ID="181"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5548,7 +5573,7 @@
      <Function ID="185"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5561,7 +5586,7 @@
      <Function ID="186"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5574,7 +5599,7 @@
      <Function ID="182"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5587,7 +5612,7 @@
      <Function ID="179"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5600,7 +5625,7 @@
      <Function ID="44"/>
      <Action>Toggle</Action>
      <Intensity Adjust="True">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5613,7 +5638,7 @@
      <Function ID="64"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -5626,7 +5651,7 @@
      <Function ID="411"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5639,7 +5664,7 @@
      <Function ID="21"/>
      <Action>Toggle</Action>
      <Intensity Adjust="True">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5653,7 +5678,7 @@
     <Function ID="189"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="155" Y="450" Height="35" Visible="True"/>
+    <WindowState Width="85" X="155" Y="450" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5666,7 +5691,7 @@
     <Function ID="191"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="1070" Y="405" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="405" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5679,7 +5704,7 @@
     <Function ID="192"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="1070" Y="440" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="440" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5692,7 +5717,7 @@
     <Function ID="190"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="1070" Y="370" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="370" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5705,7 +5730,7 @@
     <Function ID="193"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="1070" Y="280" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="280" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5718,7 +5743,7 @@
     <Function ID="194"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="295" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="295" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -5731,7 +5756,7 @@
     <Function ID="195"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="1070" Y="245" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="245" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5744,7 +5769,7 @@
     <Function ID="196"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="245" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="245" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -5758,7 +5783,7 @@
     <Action>Toggle</Action>
     <Intensity Adjust="True">100</Intensity>
     <Input Universe="0" Channel="166"/>
-    <WindowState Width="85" X="155" Y="415" Height="35" Visible="True"/>
+    <WindowState Width="85" X="155" Y="415" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5772,7 +5797,7 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="178"/>
-    <WindowState Width="50" X="160" Y="755" Height="30" Visible="True"/>
+    <WindowState Width="50" X="160" Y="755" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5785,7 +5810,7 @@
     <Function ID="204"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="60" X="1095" Y="315" Height="35" Visible="True"/>
+    <WindowState Width="60" X="1095" Y="315" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5795,7 +5820,7 @@
     </Appearance>
    </Button>
    <Label ID="596" Caption="Pars Washes">
-    <WindowState Width="84" X="75" Y="755" Height="32" Visible="True"/>
+    <WindowState Width="84" X="75" Y="755" Height="32" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5808,7 +5833,7 @@
     <Function ID="208"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="210" Y="755" Height="30" Visible="True"/>
+    <WindowState Width="50" X="210" Y="755" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5825,13 +5850,13 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="190" X="1155" Y="565" Height="215" Visible="True"/>
+    <WindowState Width="190" X="1155" Y="565" Height="215" Visible="False"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
     <Collapsed>False</Collapsed>
     <Slider WidgetStyle="Slider" ID="606" Caption="R" InvertedAppearance="false">
-     <WindowState Width="55" X="5" Y="5" Height="150" Visible="True"/>
+     <WindowState Width="55" X="5" Y="5" Height="150" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5848,7 +5873,7 @@
      </Playback>
     </Slider>
     <Slider WidgetStyle="Slider" ID="607" Caption="G" InvertedAppearance="false">
-     <WindowState Width="55" X="60" Y="5" Height="150" Visible="True"/>
+     <WindowState Width="55" X="60" Y="5" Height="150" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5865,7 +5890,7 @@
      </Playback>
     </Slider>
     <Slider WidgetStyle="Slider" ID="608" Caption="B" InvertedAppearance="false">
-     <WindowState Width="60" X="115" Y="5" Height="145" Visible="True"/>
+     <WindowState Width="60" X="115" Y="5" Height="145" Visible="False"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5886,7 +5911,7 @@
     <Function ID="236"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="150" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="150" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5899,7 +5924,7 @@
     <Function ID="239"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="345" Y="325" Height="30" Visible="True"/>
+    <WindowState Width="65" X="345" Y="325" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5912,7 +5937,7 @@
     <Function ID="251"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="980" Y="245" Height="30" Visible="True"/>
+    <WindowState Width="50" X="980" Y="245" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5925,7 +5950,7 @@
     <Function ID="266"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="780" Y="575" Height="30" Visible="True"/>
+    <WindowState Width="65" X="780" Y="575" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5935,7 +5960,7 @@
     </Appearance>
    </Button>
    <Label ID="647" Caption="Hypnotic RGB">
-    <WindowState Width="100" X="280" Y="540" Height="25" Visible="True"/>
+    <WindowState Width="100" X="280" Y="540" Height="25" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5948,8 +5973,7 @@
     <Function ID="242"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="132"/>
-    <WindowState Width="85" X="1070" Y="80" Height="35" Visible="True"/>
+    <WindowState Width="85" X="1070" Y="80" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5962,7 +5986,7 @@
     <Function ID="243"/>
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="1155" Y="80" Height="35" Visible="True"/>
+    <WindowState Width="35" X="1155" Y="80" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -5972,7 +5996,7 @@
     </Appearance>
    </Button>
    <SpeedDial SpeedTypes="4" ID="655" Caption="Hold">
-    <WindowState Width="200" X="1205" Y="5" Height="175" Visible="True"/>
+    <WindowState Width="200" X="1205" Y="5" Height="175" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6249,7 +6273,7 @@
     <Function>273</Function>
    </SpeedDial>
    <SpeedDial SpeedTypes="1" ID="657" Caption="Fade In">
-    <WindowState Width="200" X="1205" Y="170" Height="175" Visible="True"/>
+    <WindowState Width="200" X="1205" Y="170" Height="175" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6526,7 +6550,7 @@
     <Function>273</Function>
    </SpeedDial>
    <Slider WidgetStyle="Slider" ID="658" Caption="Speed" InvertedAppearance="true">
-    <WindowState Width="60" X="435" Y="100" Height="220" Visible="True"/>
+    <WindowState Width="60" X="435" Y="100" Height="220" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6547,7 +6571,7 @@
     </Playback>
    </Slider>
    <Label ID="659" Caption="LEDCon">
-    <WindowState Width="60" X="1210" Y="535" Height="30" Visible="True"/>
+    <WindowState Width="60" X="1210" Y="535" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6560,8 +6584,7 @@
     <Function ID="10"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="164"/>
-    <WindowState Width="85" X="20" Y="415" Height="35" Visible="True"/>
+    <WindowState Width="85" X="20" Y="415" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6575,7 +6598,7 @@
     <Action>Flash</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="165"/>
-    <WindowState Width="35" X="105" Y="415" Height="35" Visible="True"/>
+    <WindowState Width="35" X="105" Y="415" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -6592,7 +6615,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="100" X="610" Y="390" Height="420" Visible="True"/>
+    <WindowState Width="100" X="610" Y="390" Height="420" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -6601,7 +6624,7 @@
      <Function ID="297"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6614,7 +6637,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6627,7 +6650,7 @@
      <Function ID="298"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6640,7 +6663,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6653,7 +6676,7 @@
      <Function ID="299"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6666,7 +6689,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6679,7 +6702,7 @@
      <Function ID="302"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6692,7 +6715,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6705,7 +6728,7 @@
      <Function ID="303"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6718,7 +6741,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6731,7 +6754,7 @@
      <Function ID="296"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6744,7 +6767,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6757,7 +6780,7 @@
      <Function ID="304"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="250" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="250" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6770,7 +6793,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="250" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="250" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6783,7 +6806,7 @@
      <Function ID="295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="290" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="290" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6796,7 +6819,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="290" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="290" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6809,7 +6832,7 @@
      <Function ID="305"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="330" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="330" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6822,7 +6845,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="330" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="330" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6835,7 +6858,7 @@
      <Function ID="307"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="370" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="370" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6848,7 +6871,7 @@
      <Function ID="306"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="370" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="370" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6859,7 +6882,7 @@
     </Button>
    </SoloFrame>
    <Label ID="746" Caption="Inno Scans">
-    <WindowState Width="100" X="610" Y="360" Height="28" Visible="True"/>
+    <WindowState Width="100" X="610" Y="360" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -6876,7 +6899,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="465" Y="390" Height="180" Visible="True"/>
+    <WindowState Width="140" X="465" Y="390" Height="180" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -6885,7 +6908,7 @@
      <Function ID="359"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6898,7 +6921,7 @@
      <Function ID="368"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6911,7 +6934,7 @@
      <Function ID="369"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6924,7 +6947,7 @@
      <Function ID="360"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6937,7 +6960,7 @@
      <Function ID="362"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6950,7 +6973,7 @@
      <Function ID="361"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6963,7 +6986,7 @@
      <Function ID="364"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6976,7 +6999,7 @@
      <Function ID="366"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6989,7 +7012,7 @@
      <Function ID="365"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7002,7 +7025,7 @@
      <Function ID="363"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7015,7 +7038,7 @@
      <Function ID="367"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7028,7 +7051,7 @@
      <Function ID="371"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -7046,7 +7069,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="465" Y="575" Height="140" Visible="True"/>
+    <WindowState Width="140" X="465" Y="575" Height="140" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7055,7 +7078,7 @@
      <Function ID="382"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7068,7 +7091,7 @@
      <Function ID="373"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7081,7 +7104,7 @@
      <Function ID="385"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7094,7 +7117,7 @@
      <Function ID="348"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7107,7 +7130,7 @@
      <Function ID="349"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7120,7 +7143,7 @@
      <Function ID="350"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7133,7 +7156,7 @@
      <Function ID="351"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7146,7 +7169,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7159,7 +7182,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7170,7 +7193,7 @@
     </Button>
    </SoloFrame>
    <Label ID="769" Caption="Inno Spots">
-    <WindowState Width="100" X="485" Y="360" Height="28" Visible="True"/>
+    <WindowState Width="100" X="485" Y="360" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7180,7 +7203,7 @@
     </Appearance>
    </Label>
    <SpeedDial SpeedTypes="1" ID="770" Caption="Fade Out">
-    <WindowState Width="200" X="1205" Y="330" Height="175" Visible="True"/>
+    <WindowState Width="200" X="1205" Y="330" Height="175" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7460,7 +7483,7 @@
     <Function ID="300"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="50" X="980" Y="275" Height="30" Visible="True"/>
+    <WindowState Width="50" X="980" Y="275" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7473,7 +7496,7 @@
     <Function ID="322"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="715" Y="610" Height="30" Visible="True"/>
+    <WindowState Width="65" X="715" Y="610" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7486,7 +7509,7 @@
     <Function ID="343"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="845" Y="640" Height="30" Visible="True"/>
+    <WindowState Width="65" X="845" Y="640" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7499,7 +7522,7 @@
     <Function ID="416"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="715" Y="575" Height="30" Visible="True"/>
+    <WindowState Width="65" X="715" Y="575" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7512,7 +7535,7 @@
     <Function ID="331"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="780" Y="640" Height="30" Visible="True"/>
+    <WindowState Width="65" X="780" Y="640" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7525,7 +7548,7 @@
     <Function ID="396"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="85" X="270" Y="670" Height="35" Visible="True"/>
+    <WindowState Width="85" X="270" Y="670" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7538,7 +7561,7 @@
     <Function ID="397"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="35" X="355" Y="670" Height="35" Visible="True"/>
+    <WindowState Width="35" X="355" Y="670" Height="35" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4291611852</ForegroundColor>
@@ -7548,7 +7571,7 @@
     </Appearance>
    </Button>
    <Slider WidgetStyle="Slider" ID="769" Caption="Dim" InvertedAppearance="false">
-    <WindowState Width="50" X="855" Y="390" Height="180" Visible="True"/>
+    <WindowState Width="50" X="855" Y="390" Height="180" Visible="False"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7577,7 +7600,7 @@
     <Function ID="410"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="715" Y="670" Height="30" Visible="True"/>
+    <WindowState Width="65" X="715" Y="670" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7590,7 +7613,7 @@
     <Function ID="408"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="715" Y="640" Height="30" Visible="True"/>
+    <WindowState Width="65" X="715" Y="640" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7600,7 +7623,7 @@
     </Appearance>
    </Button>
    <SpeedDial SpeedTypes="4" ID="779" Caption="Micros Hold">
-    <WindowState Width="190" X="715" Y="700" Height="175" Visible="True"/>
+    <WindowState Width="190" X="715" Y="700" Height="175" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7625,7 +7648,7 @@
     <Function ID="418"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="845" Y="610" Height="30" Visible="True"/>
+    <WindowState Width="65" X="845" Y="610" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7638,7 +7661,7 @@
     <Function ID="421"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="780" Y="610" Height="30" Visible="True"/>
+    <WindowState Width="65" X="780" Y="610" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7655,7 +7678,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="910" Y="390" Height="140" Visible="True"/>
+    <WindowState Width="140" X="910" Y="390" Height="140" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7664,7 +7687,7 @@
      <Function ID="429"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7677,7 +7700,7 @@
      <Function ID="444"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -7690,7 +7713,7 @@
      <Function ID="443"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7703,7 +7726,7 @@
      <Function ID="424"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7716,7 +7739,7 @@
      <Function ID="426"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7729,7 +7752,7 @@
      <Function ID="423"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7742,7 +7765,7 @@
      <Function ID="425"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7755,7 +7778,7 @@
      <Function ID="427"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7768,7 +7791,7 @@
      <Function ID="428"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7782,7 +7805,7 @@
     <Function ID="441"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="725" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="725" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7795,7 +7818,7 @@
     <Function ID="442"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="725" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="725" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7808,7 +7831,7 @@
     <Function ID="433"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="535" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="535" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7821,7 +7844,7 @@
     <Function ID="432"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="535" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="535" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7834,7 +7857,7 @@
     <Function ID="438"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="695" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="695" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7847,7 +7870,7 @@
     <Function ID="439"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="695" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="695" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7860,7 +7883,7 @@
     <Function ID="431"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="600" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="600" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7873,7 +7896,7 @@
     <Function ID="434"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="635" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="635" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7886,7 +7909,7 @@
     <Function ID="435"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="635" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="635" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7899,7 +7922,7 @@
     <Function ID="436"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="665" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="665" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7912,7 +7935,7 @@
     <Function ID="437"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="665" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="665" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7925,7 +7948,7 @@
     <Function ID="440"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="920" Y="565" Height="30" Visible="True"/>
+    <WindowState Width="65" X="920" Y="565" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7938,7 +7961,7 @@
     <Function ID="430"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="65" X="985" Y="600" Height="30" Visible="True"/>
+    <WindowState Width="65" X="985" Y="600" Height="30" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7948,7 +7971,7 @@
     </Appearance>
    </Button>
    <Label ID="803" Caption="Mega Tri Bars">
-    <WindowState Width="100" X="930" Y="360" Height="28" Visible="True"/>
+    <WindowState Width="100" X="930" Y="360" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -7965,7 +7988,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="20" Y="490" Height="220" Visible="True"/>
+    <WindowState Width="140" X="20" Y="490" Height="220" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -7974,7 +7997,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7987,7 +8010,7 @@
      <Function ID="457"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8000,7 +8023,7 @@
      <Function ID="387"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -8013,7 +8036,7 @@
      <Function ID="445"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8026,7 +8049,7 @@
      <Function ID="446"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8039,7 +8062,7 @@
      <Function ID="447"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8052,7 +8075,7 @@
      <Function ID="448"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8065,7 +8088,7 @@
      <Function ID="449"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8078,7 +8101,7 @@
      <Function ID="450"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8091,7 +8114,7 @@
      <Function ID="451"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8104,7 +8127,7 @@
      <Function ID="452"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8117,7 +8140,7 @@
      <Function ID="453"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8130,7 +8153,7 @@
      <Function ID="454"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8143,7 +8166,7 @@
      <Function ID="455"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8156,7 +8179,7 @@
      <Function ID="456"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8167,7 +8190,7 @@
     </Button>
    </SoloFrame>
    <Label ID="809" Caption="Freq 16">
-    <WindowState Width="100" X="40" Y="460" Height="28" Visible="True"/>
+    <WindowState Width="100" X="40" Y="460" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -8184,7 +8207,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="15" Y="100" Height="180" Visible="True"/>
+    <WindowState Width="140" X="15" Y="100" Height="180" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8193,7 +8216,7 @@
      <Function ID="131"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8206,7 +8229,7 @@
      <Function ID="130"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8219,7 +8242,7 @@
      <Function ID="134"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8232,7 +8255,7 @@
      <Function ID="135"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8245,7 +8268,7 @@
      <Function ID="129"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8258,7 +8281,7 @@
      <Function ID="132"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8271,7 +8294,7 @@
      <Function ID="63"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -8284,7 +8307,7 @@
      <Function ID="133"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8297,7 +8320,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8310,7 +8333,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8323,7 +8346,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8336,7 +8359,7 @@
      <Function ID="174"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8354,7 +8377,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="155" Y="100" Height="220" Visible="True"/>
+    <WindowState Width="140" X="155" Y="100" Height="220" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8363,7 +8386,7 @@
      <Function ID="22"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8376,7 +8399,7 @@
      <Function ID="23"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8389,7 +8412,7 @@
      <Function ID="24"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8402,7 +8425,7 @@
      <Function ID="25"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8415,7 +8438,7 @@
      <Function ID="26"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8428,7 +8451,7 @@
      <Function ID="27"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8441,7 +8464,7 @@
      <Function ID="28"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8454,7 +8477,7 @@
      <Function ID="29"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8467,7 +8490,7 @@
      <Function ID="238"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8480,7 +8503,7 @@
      <Function ID="34"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8493,7 +8516,7 @@
      <Function ID="32"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8506,7 +8529,7 @@
      <Function ID="33"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8519,7 +8542,7 @@
      <Function ID="31"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8532,7 +8555,7 @@
      <Function ID="237"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8545,7 +8568,7 @@
      <Function ID="140"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8563,7 +8586,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="295" Y="100" Height="220" Visible="True"/>
+    <WindowState Width="140" X="295" Y="100" Height="220" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8572,7 +8595,7 @@
      <Function ID="219"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8585,7 +8608,7 @@
      <Function ID="228"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8598,7 +8621,7 @@
      <Function ID="229"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8611,7 +8634,7 @@
      <Function ID="230"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8624,7 +8647,7 @@
      <Function ID="220"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8637,7 +8660,7 @@
      <Function ID="221"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8650,7 +8673,7 @@
      <Function ID="222"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8663,7 +8686,7 @@
      <Function ID="223"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8676,7 +8699,7 @@
      <Function ID="224"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8689,7 +8712,7 @@
      <Function ID="225"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8702,7 +8725,7 @@
      <Function ID="226"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8715,7 +8738,7 @@
      <Function ID="227"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8728,7 +8751,7 @@
      <Function ID="231"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8741,7 +8764,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8754,7 +8777,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8772,7 +8795,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="495" Y="100" Height="220" Visible="True"/>
+    <WindowState Width="140" X="495" Y="100" Height="220" Visible="False"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8781,7 +8804,7 @@
      <Function ID="41"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8794,7 +8817,7 @@
      <Function ID="212"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8807,7 +8830,7 @@
      <Function ID="267"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8820,7 +8843,7 @@
      <Function ID="268"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8833,7 +8856,7 @@
      <Function ID="210"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8846,7 +8869,7 @@
      <Function ID="211"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8859,7 +8882,7 @@
      <Function ID="209"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8872,7 +8895,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8885,7 +8908,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8898,7 +8921,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8911,7 +8934,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8924,7 +8947,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8937,7 +8960,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8955,7 +8978,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="535" X="35" Y="5" Height="60" Visible="True"/>
+    <WindowState Width="535" X="35" Y="5" Height="60" Visible="False"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -8964,7 +8987,7 @@
      <Function ID="13"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8977,7 +9000,7 @@
      <Function ID="17"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="205" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="205" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -8990,7 +9013,7 @@
      <Function ID="14"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9003,7 +9026,7 @@
      <Function ID="15"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="285" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="285" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9016,7 +9039,7 @@
      <Function ID="188"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="365" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="365" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9029,7 +9052,7 @@
      <Function ID="12"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9042,7 +9065,7 @@
      <Function ID="261"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="325" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="325" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9055,7 +9078,7 @@
      <Function ID="19"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9068,7 +9091,7 @@
      <Function ID="16"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="245" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="245" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9081,7 +9104,7 @@
      <Function ID="42"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="445" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="445" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9094,7 +9117,7 @@
      <Function ID="388"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="485" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="485" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -9107,7 +9130,7 @@
      <Function ID="458"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="165" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="165" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9120,7 +9143,7 @@
      <Function ID="18"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="405" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="405" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9131,7 +9154,7 @@
     </Button>
    </SoloFrame>
    <Label ID="910" Caption="Gobos">
-    <WindowState Width="72" X="190" Y="70" Height="28" Visible="True"/>
+    <WindowState Width="72" X="190" Y="70" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -9141,7 +9164,7 @@
     </Appearance>
    </Label>
    <Label ID="911" Caption="Movements">
-    <WindowState Width="72" X="330" Y="70" Height="28" Visible="True"/>
+    <WindowState Width="72" X="330" Y="70" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -9151,7 +9174,7 @@
     </Appearance>
    </Label>
    <Label ID="912" Caption="Positions">
-    <WindowState Width="72" X="525" Y="70" Height="28" Visible="True"/>
+    <WindowState Width="72" X="525" Y="70" Height="28" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -9168,7 +9191,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="260" Y="565" Height="100" Visible="True"/>
+    <WindowState Width="140" X="260" Y="565" Height="100" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -9177,7 +9200,7 @@
      <Function ID="265"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9190,7 +9213,7 @@
      <Function ID="271"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9203,7 +9226,7 @@
      <Function ID="260"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9216,7 +9239,7 @@
      <Function ID="270"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9229,7 +9252,7 @@
      <Function ID="272"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9242,7 +9265,7 @@
      <Function ID="273"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4291611852</ForegroundColor>
@@ -9256,7 +9279,7 @@
     <Function ID="213"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <WindowState Width="40" X="595" Y="15" Height="40" Visible="True"/>
+    <WindowState Width="40" X="595" Y="15" Height="40" Visible="False"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>4284940287</ForegroundColor>
@@ -9273,7 +9296,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="140" X="730" Y="205" Height="140" Visible="True"/>
+    <WindowState Width="140" X="730" Y="205" Height="140" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -9282,7 +9305,7 @@
      <Function ID="240"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9295,7 +9318,7 @@
      <Function ID="241"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9308,7 +9331,7 @@
      <Function ID="252"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9321,7 +9344,7 @@
      <Function ID="253"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9334,7 +9357,7 @@
      <Function ID="254"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9347,7 +9370,7 @@
      <Function ID="255"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9360,7 +9383,7 @@
      <Function ID="256"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9373,7 +9396,7 @@
      <Function ID="257"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9386,7 +9409,7 @@
      <Function ID="258"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9404,7 +9427,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="340" X="55" Y="800" Height="260" Visible="True"/>
+    <WindowState Width="340" X="55" Y="800" Height="260" Visible="False"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -9414,7 +9437,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="129"/>
-     <WindowState Width="40" X="10" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9427,7 +9450,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9440,7 +9463,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9453,7 +9476,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9466,7 +9489,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9479,7 +9502,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9492,7 +9515,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9505,7 +9528,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="10" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="10" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9519,7 +9542,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="137"/>
-     <WindowState Width="40" X="10" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9532,7 +9555,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9545,7 +9568,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9558,7 +9581,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9571,7 +9594,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9584,7 +9607,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9597,7 +9620,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9610,7 +9633,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="50" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="50" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9624,7 +9647,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="145"/>
-     <WindowState Width="40" X="10" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9637,7 +9660,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9650,7 +9673,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9663,7 +9686,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9676,7 +9699,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9689,7 +9712,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9702,7 +9725,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9715,7 +9738,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="90" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="90" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9729,7 +9752,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="153"/>
-     <WindowState Width="40" X="10" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9742,7 +9765,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9755,7 +9778,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9768,7 +9791,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9781,7 +9804,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9794,7 +9817,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9807,7 +9830,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9820,7 +9843,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="130" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="130" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9834,7 +9857,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="161"/>
-     <WindowState Width="40" X="10" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9847,7 +9870,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9860,7 +9883,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9873,7 +9896,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9886,7 +9909,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9899,7 +9922,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9912,7 +9935,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9925,7 +9948,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="170" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="170" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9939,7 +9962,7 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="169"/>
-     <WindowState Width="40" X="10" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="10" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9952,7 +9975,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="50" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="50" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9965,7 +9988,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="90" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="90" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9978,7 +10001,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="130" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="130" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9991,7 +10014,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="170" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="170" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -10004,7 +10027,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="210" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="210" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -10017,7 +10040,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="250" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="250" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -10030,7 +10053,7 @@
      <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="40" X="290" Y="210" Height="40" Visible="True"/>
+     <WindowState Width="40" X="290" Y="210" Height="40" Visible="False"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
