@@ -5953,7 +5953,6 @@
     <Function ID="46"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="135"/>
     <WindowState Width="85" X="1055" Y="45" Height="35" Visible="True"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
@@ -5980,7 +5979,6 @@
     <Function ID="47"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="134"/>
     <WindowState Width="85" X="1055" Y="10" Height="35" Visible="True"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
