@@ -11073,6 +11073,7 @@
      <Function ID="470"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="170"/>
      <WindowState Width="40" X="50" Y="210" Height="40" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
