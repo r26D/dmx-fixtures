@@ -1,0 +1,203 @@
+<!DOCTYPE InputProfile>
+<InputProfile>
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0</Version>
+  <Author>Brett Elmendorf</Author>
+ </Creator>
+ <Manufacturer>Monome</Manufacturer>
+ <Model>64 + moonbeam</Model>
+ <Type>MIDI</Type>
+ <Channel Number="129">
+  <Name>1 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="130">
+  <Name>2 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="131">
+  <Name>3 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="132">
+  <Name>4 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="133">
+  <Name>5 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="134">
+  <Name>6 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="135">
+  <Name>7 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="136">
+  <Name>8 x 3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="137">
+  <Name>1 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="138">
+  <Name>2 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="139">
+  <Name>3 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="140">
+  <Name>4 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="141">
+  <Name>5 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="142">
+  <Name>6 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="143">
+  <Name>7 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="144">
+  <Name>8 x 4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="145">
+  <Name>1 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="146">
+  <Name>2 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="147">
+  <Name>3 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="148">
+  <Name>4 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="149">
+  <Name>5 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="150">
+  <Name>6 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="151">
+  <Name>7 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="152">
+  <Name>8 x 5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="153">
+  <Name>1 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="154">
+  <Name>2 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="155">
+  <Name>3 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="156">
+  <Name>4 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="157">
+  <Name>5 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="158">
+  <Name>6 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="159">
+  <Name>7 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="160">
+  <Name>8 x 6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="161">
+  <Name>1 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="162">
+  <Name>2 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="163">
+  <Name>3 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="164">
+  <Name>4 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>5 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>6 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>7 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="168">
+  <Name>8 x 7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="169">
+  <Name>1 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="170">
+  <Name>2 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="171">
+  <Name>3 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="172">
+  <Name>4 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="173">
+  <Name>5 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="174">
+  <Name>6 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="175">
+  <Name>7 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="176">
+  <Name>8 x 8</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>
