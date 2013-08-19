@@ -4649,7 +4649,7 @@
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Color Fade" ID="432">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="43">0,115,1,228</FixtureVal>
+   <FixtureVal ID="43">0,115,1,0</FixtureVal>
    <FixtureVal ID="44">0,115,1,228</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Color Change" ID="433">
@@ -4659,7 +4659,7 @@
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Flow 1" ID="434">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="43">0,137,1,228</FixtureVal>
+   <FixtureVal ID="43">0,137,1,5</FixtureVal>
    <FixtureVal ID="44">0,137,1,228</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Flow 2" ID="435">
@@ -4684,7 +4684,7 @@
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Double Flow 2" ID="439">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="43">0,192,1,228</FixtureVal>
+   <FixtureVal ID="43">0,192,1,9</FixtureVal>
    <FixtureVal ID="44">0,192,1,228</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | Multi Color" ID="440">
@@ -4699,7 +4699,7 @@
   </Function>
   <Function Type="Scene" Name="Chase | Mega Tri Bars | 2 Color Flow 2" ID="442">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <FixtureVal ID="43">0,225,1,228</FixtureVal>
+   <FixtureVal ID="43">0,214,1,0</FixtureVal>
    <FixtureVal ID="44">0,225,1,228</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Sound Active | Mega Tri Bars | ON" ID="443">
@@ -6003,7 +6003,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="0">
+    <Level HighLimit="255" LowLimit="0" Value="255">
      <Channel Fixture="0">27</Channel>
      <Channel Fixture="1">27</Channel>
     </Level>
@@ -6443,7 +6443,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="132" LowLimit="15" Value="80">
+    <Level HighLimit="132" LowLimit="15" Value="79">
      <Channel Fixture="5">4</Channel>
      <Channel Fixture="10">4</Channel>
      <Channel Fixture="26">4</Channel>
@@ -6897,7 +6897,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="27">0</Channel>
      </Level>
      <Playback>
@@ -8693,7 +8693,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="255">
+    <Level HighLimit="255" LowLimit="0" Value="0">
      <Channel Fixture="11">7</Channel>
      <Channel Fixture="12">7</Channel>
      <Channel Fixture="24">7</Channel>
@@ -11236,7 +11236,7 @@
      <Font>Default</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="0">
+    <Level HighLimit="255" LowLimit="0" Value="94">
      <Channel Fixture="5">3</Channel>
      <Channel Fixture="10">3</Channel>
      <Channel Fixture="20">2</Channel>
@@ -11963,8 +11963,8 @@
      <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
      <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
     </Fixture>
-    <Pan Position="27"/>
-    <Tilt Position="112"/>
+    <Pan Position="75"/>
+    <Tilt Position="0"/>
     <WindowState Width="190" X="1410" Y="215" Height="185" Visible="True"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
