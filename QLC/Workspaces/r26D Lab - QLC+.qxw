@@ -128,7 +128,7 @@
    <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="Rainbow Wash" ID="9">
-   <Speed Duration="30000" FadeOut="12000" FadeIn="12000"/>
+   <Speed Duration="15030" FadeOut="15000" FadeIn="15000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
