@@ -1,9 +1,7 @@
-This is a collection of DMX Light Fixture profiles for use in DMX Software.
+This is a collection of DMX Light Fixture profiles and workspaces for use in DMX software packages.
 
-== DMX Software ==
+## DMX Software ##
 
-QLC  
-
-QLC+  
-
-Luminair  
+1. QLC  
+1. QLC+  
+1. Luminair  
