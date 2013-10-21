@@ -2610,7 +2610,7 @@
   </Function>
   <Function Type="Scene" Name="Color - Green - LED Strip" ID="216">
    <Speed Duration="1960" FadeOut="0" FadeIn="1290"/>
-   <FixtureVal ID="27">1,255</FixtureVal>
+   <FixtureVal ID="27">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Color - Yellow - LED Strip" ID="217">
    <Speed Duration="1960" FadeOut="0" FadeIn="1290"/>
@@ -6915,7 +6915,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="255">
+     <Level HighLimit="255" LowLimit="0" Value="0">
       <Channel Fixture="27">0</Channel>
      </Level>
      <Playback>
@@ -12109,7 +12109,7 @@
      <Font>Default</Font>
     </Appearance>
    </Button>
-   <Button Icon="" Caption="Inno Spots">
+   <Button Icon="" ID="1145" Caption="Inno Spots">
     <Function ID="464"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
