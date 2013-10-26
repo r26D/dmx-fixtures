@@ -66,6 +66,36 @@
    <Address>240</Address>
    <Channels>48</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Flash Panel 16</Model>
+   <Mode>48 Ch</Mode>
+   <ID>6</ID>
+   <Name>Flash Panel 7</Name>
+   <Universe>1</Universe>
+   <Address>288</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Flash Panel 16</Model>
+   <Mode>48 Ch</Mode>
+   <ID>7</ID>
+   <Name>Flash Panel 8</Name>
+   <Universe>1</Universe>
+   <Address>336</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Flash Panel 16</Model>
+   <Mode>48 Ch</Mode>
+   <ID>8</ID>
+   <Name>Flash Panel 9</Name>
+   <Universe>1</Universe>
+   <Address>384</Address>
+   <Channels>48</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>Pixel Grid</Name>
    <Size X="12" Y="8"/>
@@ -170,7 +200,7 @@
    <Speed Duration="500" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
-   <Algorithm Type="Script">Single Random</Algorithm>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
    <MonoColor>4278255615</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
