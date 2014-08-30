@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://qlcplus.sourceforge.net/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.4</Version>
+  <Author>Brett</Author>
+ </Creator>
+ <Manufacturer>Blizzard Lighting</Manufacturer>
+ <Model>HotBox EXA</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="Amber">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="White">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="UV">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Magenta</Colour>
+  <Capability Min="0" Max="255">Intensity ( 0% &lt;--> 100% )</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="14">Dimming</Capability>
+  <Capability Min="15" Max="255">Strobe ( Slow &lt;--> Fast )</Capability>
+ </Channel>
+ <Channel Name="Fade, Color Change, Sound Active">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="31">No Function</Capability>
+  <Capability Min="32" Max="63">Fade In ( Ch 10 Controls Speed )</Capability>
+  <Capability Min="64" Max="95">Fade Out ( Ch 10 Controls Speed )</Capability>
+  <Capability Min="96" Max="127">Fade In / Fade Out ( Ch 10 Controls Speed )</Capability>
+  <Capability Min="128" Max="164">Multi-Color Fade ( Ch 10 Controls Speed )</Capability>
+  <Capability Min="165" Max="191">Fade In / Fade Out, Auto Run</Capability>
+  <Capability Min="192" Max="223">Multi-Color Jump ( Ch 10 Controls Speed )</Capability>
+  <Capability Min="224" Max="255">Sound Active, Multicolor ( Ch 10 Controls Speed )</Capability>
+ </Channel>
+ <Channel Name="Fade Speed">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="255">Fade Speed ( Slow &lt;--> Fast )</Capability>
+ </Channel>
+ <Channel Name="32-Bit Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="5">As set in control menu display</Capability>
+  <Capability Min="6" Max="55">Mode 0 = 8-bit, 256 dimming steps</Capability>
+  <Capability Min="56" Max="105">Mode 1 = 32-bit 0-25% intensity range</Capability>
+  <Capability Min="106" Max="155">Mode 2 = 32-bit 0-50% intensity range</Capability>
+  <Capability Min="156" Max="205">Mode 3 = 32-bit 0-75% intensity range</Capability>
+  <Capability Min="206" Max="255">Mode 4 = 32-bit full intensity dimming</Capability>
+ </Channel>
+ <Channel Name="RGB Color Mixing">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="255">RGB Color Mixing</Capability>
+ </Channel>
+ <Mode Name="11 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="127" Height="127" Weight="1.6" Depth="102"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="26" Type="Fixed" TiltMax="30"/>
+   <Technical PowerConsumption="53" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Amber</Channel>
+  <Channel Number="5">White</Channel>
+  <Channel Number="6">UV</Channel>
+  <Channel Number="7">Strobe</Channel>
+  <Channel Number="8">Fade, Color Change, Sound Active</Channel>
+  <Channel Number="9">Fade Speed</Channel>
+  <Channel Number="10">32-Bit Dimmer</Channel>
+ </Mode>
+ <Mode Name="10 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="127" Height="127" Weight="1.6" Depth="102"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="26" Type="Fixed" TiltMax="30"/>
+   <Technical PowerConsumption="53" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Amber</Channel>
+  <Channel Number="5">White</Channel>
+  <Channel Number="6">UV</Channel>
+  <Channel Number="7">Strobe</Channel>
+  <Channel Number="8">Fade, Color Change, Sound Active</Channel>
+  <Channel Number="9">Fade Speed</Channel>
+ </Mode>
+ <Mode Name="8 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="127" Height="127" Weight="1.6" Depth="102"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="26" Type="Fixed" TiltMax="30"/>
+   <Technical PowerConsumption="53" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Dimmer</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">Amber</Channel>
+  <Channel Number="5">White</Channel>
+  <Channel Number="6">UV</Channel>
+  <Channel Number="7">Strobe</Channel>
+ </Mode>
+ <Mode Name="6 Channel">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="127" Height="127" Weight="1.6" Depth="102"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="26" Type="Fixed" TiltMax="30"/>
+   <Technical PowerConsumption="53" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+  <Channel Number="3">Amber</Channel>
+  <Channel Number="4">White</Channel>
+  <Channel Number="5">UV</Channel>
+ </Mode>
+ <Mode Name="3 Channel HSV">
+  <Physical>
+   <Bulb Lumens="0" Type="LED" ColourTemperature="0"/>
+   <Dimensions Width="127" Height="127" Weight="1.6" Depth="102"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="26" Type="Fixed" TiltMax="30"/>
+   <Technical PowerConsumption="53" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">RGB Color Mixing</Channel>
+  <Channel Number="1">White</Channel>
+  <Channel Number="2">Dimmer</Channel>
+ </Mode>
+</FixtureDefinition>
