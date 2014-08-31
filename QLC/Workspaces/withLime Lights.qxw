@@ -6746,7 +6746,7 @@
      <Font>PragmataPro,14,-1,5,50,0,0,0,0,0</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="132" LowLimit="15" Value="28">
+    <Level HighLimit="132" LowLimit="15" Value="15">
      <Channel Fixture="5">4</Channel>
      <Channel Fixture="10">4</Channel>
      <Channel Fixture="26">4</Channel>
@@ -10752,7 +10752,7 @@
     <Collapsed>False</Collapsed>
     <Button Icon="" ID="976" Caption="R">
      <Function ID="301"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="True">100</Intensity>
      <Input Universe="0" Channel="129"/>
      <WindowState Width="40" X="5" Y="30" Height="40" Visible="True"/>
@@ -10766,7 +10766,7 @@
     </Button>
     <Button Icon="" ID="977" Caption="R B">
      <Function ID="488"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="130"/>
      <WindowState Width="40" X="50" Y="30" Height="40" Visible="True"/>
@@ -10780,7 +10780,7 @@
     </Button>
     <Button Icon="" ID="978" Caption="B R">
      <Function ID="499"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="131"/>
      <WindowState Width="40" X="95" Y="30" Height="40" Visible="True"/>
@@ -10794,7 +10794,7 @@
     </Button>
     <Button Icon="" ID="979" Caption="R Y">
      <Function ID="472"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="132"/>
      <WindowState Width="40" X="140" Y="30" Height="40" Visible="True"/>
@@ -10808,7 +10808,7 @@
     </Button>
     <Button Icon="" ID="980" Caption="Y R">
      <Function ID="501"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="133"/>
      <WindowState Width="40" X="185" Y="30" Height="40" Visible="True"/>
@@ -10822,7 +10822,7 @@
     </Button>
     <Button Icon="" ID="981" Caption="R C">
      <Function ID="480"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="134"/>
      <WindowState Width="40" X="230" Y="30" Height="40" Visible="True"/>
@@ -10836,7 +10836,7 @@
     </Button>
     <Button Icon="" ID="982" Caption="C R">
      <Function ID="492"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="135"/>
      <WindowState Width="40" X="275" Y="30" Height="40" Visible="True"/>
@@ -10850,7 +10850,7 @@
     </Button>
     <Button Icon="" ID="983" Caption="R M">
      <Function ID="497"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="136"/>
      <WindowState Width="40" X="320" Y="30" Height="40" Visible="True"/>
@@ -10864,7 +10864,7 @@
     </Button>
     <Button Icon="" ID="984" Caption="G">
      <Function ID="333"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="137"/>
      <WindowState Width="40" X="5" Y="75" Height="40" Visible="True"/>
@@ -10878,7 +10878,7 @@
     </Button>
     <Button Icon="" ID="985" Caption="G B">
      <Function ID="489"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="138"/>
      <WindowState Width="40" X="50" Y="75" Height="40" Visible="True"/>
@@ -10892,7 +10892,7 @@
     </Button>
     <Button Icon="" ID="986" Caption="B G">
      <Function ID="482"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="139"/>
      <WindowState Width="40" X="95" Y="75" Height="40" Visible="True"/>
@@ -10906,7 +10906,7 @@
     </Button>
     <Button Icon="" ID="987" Caption="G Y">
      <Function ID="473"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="140"/>
      <WindowState Width="40" X="140" Y="75" Height="40" Visible="True"/>
@@ -10920,7 +10920,7 @@
     </Button>
     <Button Icon="" ID="988" Caption="Y G">
      <Function ID="485"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="141"/>
      <WindowState Width="40" X="185" Y="75" Height="40" Visible="True"/>
@@ -10934,7 +10934,7 @@
     </Button>
     <Button Icon="" ID="989" Caption="G C">
      <Function ID="502"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="142"/>
      <WindowState Width="40" X="230" Y="75" Height="40" Visible="True"/>
@@ -10948,7 +10948,7 @@
     </Button>
     <Button Icon="" ID="990" Caption="C G">
      <Function ID="476"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="143"/>
      <WindowState Width="40" X="275" Y="75" Height="40" Visible="True"/>
@@ -10962,7 +10962,7 @@
     </Button>
     <Button Icon="" ID="991" Caption="G M">
      <Function ID="483"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="144"/>
      <WindowState Width="40" X="320" Y="75" Height="40" Visible="True"/>
@@ -10976,7 +10976,7 @@
     </Button>
     <Button Icon="" ID="992" Caption="B">
      <Function ID="465"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="145"/>
      <WindowState Width="40" X="5" Y="120" Height="40" Visible="True"/>
@@ -10990,7 +10990,7 @@
     </Button>
     <Button Icon="" ID="993" Caption="B Y">
      <Function ID="503"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="146"/>
      <WindowState Width="40" X="50" Y="120" Height="40" Visible="True"/>
@@ -11004,7 +11004,7 @@
     </Button>
     <Button Icon="" ID="994" Caption="Y B">
      <Function ID="504"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="147"/>
      <WindowState Width="40" X="95" Y="120" Height="40" Visible="True"/>
@@ -11018,7 +11018,7 @@
     </Button>
     <Button Icon="" ID="995" Caption="B C">
      <Function ID="505"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="148"/>
      <WindowState Width="40" X="140" Y="120" Height="40" Visible="True"/>
@@ -11032,7 +11032,7 @@
     </Button>
     <Button Icon="" ID="996" Caption="C B">
      <Function ID="506"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="149"/>
      <WindowState Width="40" X="185" Y="120" Height="40" Visible="True"/>
@@ -11046,7 +11046,7 @@
     </Button>
     <Button Icon="" ID="997" Caption="B M">
      <Function ID="507"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="150"/>
      <WindowState Width="40" X="230" Y="120" Height="40" Visible="True"/>
@@ -11060,7 +11060,7 @@
     </Button>
     <Button Icon="" ID="998" Caption="M B">
      <Function ID="508"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="151"/>
      <WindowState Width="40" X="275" Y="120" Height="40" Visible="True"/>
@@ -11074,7 +11074,7 @@
     </Button>
     <Button Icon="" ID="999" Caption="B R">
      <Function ID="509"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="152"/>
      <WindowState Width="40" X="320" Y="120" Height="40" Visible="True"/>
@@ -11088,7 +11088,7 @@
     </Button>
     <Button Icon="" ID="1000" Caption="Y">
      <Function ID="468"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="153"/>
      <WindowState Width="40" X="5" Y="165" Height="40" Visible="True"/>
@@ -11102,7 +11102,7 @@
     </Button>
     <Button Icon="" ID="1001" Caption="Y C">
      <Function ID="510"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="154"/>
      <WindowState Width="40" X="50" Y="165" Height="40" Visible="True"/>
@@ -11116,7 +11116,7 @@
     </Button>
     <Button Icon="" ID="1002" Caption="C Y">
      <Function ID="511"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="155"/>
      <WindowState Width="40" X="95" Y="165" Height="40" Visible="True"/>
@@ -11130,7 +11130,7 @@
     </Button>
     <Button Icon="" ID="1003" Caption="Y M">
      <Function ID="512"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="156"/>
      <WindowState Width="40" X="140" Y="165" Height="40" Visible="True"/>
@@ -11144,7 +11144,7 @@
     </Button>
     <Button Icon="" ID="1004" Caption="M Y">
      <Function ID="513"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="157"/>
      <WindowState Width="40" X="185" Y="165" Height="40" Visible="True"/>
@@ -11158,7 +11158,7 @@
     </Button>
     <Button Icon="" ID="1005" Caption="M R">
      <Function ID="514"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="158"/>
      <WindowState Width="40" X="230" Y="165" Height="40" Visible="True"/>
@@ -11172,7 +11172,7 @@
     </Button>
     <Button Icon="" ID="1006" Caption="G M">
      <Function ID="517"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="159"/>
      <WindowState Width="40" X="275" Y="165" Height="40" Visible="True"/>
@@ -11186,7 +11186,7 @@
     </Button>
     <Button Icon="" ID="1007" Caption="Y W">
      <Function ID="516"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="160"/>
      <WindowState Width="40" X="320" Y="165" Height="40" Visible="True"/>
@@ -11200,7 +11200,7 @@
     </Button>
     <Button Icon="" ID="1008" Caption="C">
      <Function ID="467"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="161"/>
      <WindowState Width="40" X="5" Y="210" Height="40" Visible="True"/>
@@ -11214,7 +11214,7 @@
     </Button>
     <Button Icon="" ID="1009" Caption="2x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <WindowState Width="40" X="50" Y="210" Height="40" Visible="True"/>
      <Appearance>
@@ -11227,7 +11227,7 @@
     </Button>
     <Button Icon="" ID="1010" Caption="3x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="163"/>
      <WindowState Width="40" X="95" Y="210" Height="40" Visible="True"/>
@@ -11241,7 +11241,7 @@
     </Button>
     <Button Icon="" ID="1011" Caption="4x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="164"/>
      <WindowState Width="40" X="140" Y="210" Height="40" Visible="True"/>
@@ -11255,7 +11255,7 @@
     </Button>
     <Button Icon="" ID="1012" Caption="5x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="165"/>
      <WindowState Width="40" X="185" Y="210" Height="40" Visible="True"/>
@@ -11269,7 +11269,7 @@
     </Button>
     <Button Icon="" ID="1013" Caption="6x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="166"/>
      <WindowState Width="40" X="230" Y="210" Height="40" Visible="True"/>
@@ -11283,7 +11283,7 @@
     </Button>
     <Button Icon="" ID="1014" Caption="7x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="167"/>
      <WindowState Width="40" X="275" Y="210" Height="40" Visible="True"/>
@@ -11297,7 +11297,7 @@
     </Button>
     <Button Icon="" ID="1015" Caption="8x7">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="168"/>
      <WindowState Width="40" X="320" Y="210" Height="40" Visible="True"/>
@@ -11311,7 +11311,7 @@
     </Button>
     <Button Icon="" ID="1016" Caption="M">
      <Function ID="466"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="169"/>
      <WindowState Width="40" X="5" Y="255" Height="40" Visible="True"/>
@@ -11325,7 +11325,7 @@
     </Button>
     <Button Icon="" ID="1017" Caption="2x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="170"/>
      <WindowState Width="40" X="50" Y="255" Height="40" Visible="True"/>
@@ -11339,7 +11339,7 @@
     </Button>
     <Button Icon="" ID="1018" Caption="3x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="171"/>
      <WindowState Width="40" X="95" Y="255" Height="40" Visible="True"/>
@@ -11353,7 +11353,7 @@
     </Button>
     <Button Icon="" ID="1019" Caption="4x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="172"/>
      <WindowState Width="40" X="140" Y="255" Height="40" Visible="True"/>
@@ -11367,7 +11367,7 @@
     </Button>
     <Button Icon="" ID="1020" Caption="5x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="173"/>
      <WindowState Width="40" X="185" Y="255" Height="40" Visible="True"/>
@@ -11381,7 +11381,7 @@
     </Button>
     <Button Icon="" ID="1021" Caption="6x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="174"/>
      <WindowState Width="40" X="230" Y="255" Height="40" Visible="True"/>
@@ -11395,7 +11395,7 @@
     </Button>
     <Button Icon="" ID="1022" Caption="7x8">
      <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="175"/>
      <WindowState Width="40" X="275" Y="255" Height="40" Visible="True"/>
@@ -11409,7 +11409,7 @@
     </Button>
     <Button Icon="" ID="1023" Caption="W">
      <Function ID="554"/>
-     <Action>Toggle</Action>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="176"/>
      <WindowState Width="40" X="320" Y="255" Height="40" Visible="True"/>
