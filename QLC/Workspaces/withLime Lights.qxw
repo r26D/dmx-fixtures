@@ -5535,12 +5535,6 @@
    <FixtureVal ID="43">0,38,1,0</FixtureVal>
    <FixtureVal ID="44">0,60,1,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="New Chaser 490" ID="490">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
-  </Function>
   <Function Type="Scene" Name="Fixture | HZ-500 | On" ID="491">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="49">0,255</FixtureVal>
@@ -5571,6 +5565,18 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="49">0,0</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 1" ID="494">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 2" ID="495">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 3" ID="496">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,255,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="Scene | 8 x 3 | Red + Magenta" ID="497">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="11">0,255,1,0,2,0,3,0,7,255</FixtureVal>
@@ -5592,6 +5598,10 @@
    <FixtureVal ID="43">0,16,1,0</FixtureVal>
    <FixtureVal ID="44">0,60,1,0</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 4" ID="498">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,255,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="Scene | 3 x 3 | Blue + Red" ID="499">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="11">0,0,1,0,2,255,3,0,7,255</FixtureVal>
@@ -5612,6 +5622,10 @@
    <FixtureVal ID="42">2,36,6,255</FixtureVal>
    <FixtureVal ID="43">0,60,1,0</FixtureVal>
    <FixtureVal ID="44">0,16,1,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 5" ID="500">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,0,3,0,4,255,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
   </Function>
   <Function Type="Scene" Name="Scene | 5 x 3 | Yellow + Red" ID="501">
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
@@ -6267,6 +6281,32 @@
    <FixtureVal ID="42">2,7,6,255</FixtureVal>
    <FixtureVal ID="43">0,82,1,0</FixtureVal>
    <FixtureVal ID="44">0,82,1,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 6" ID="555">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,255,15,0,16,0,17,229</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 7" ID="556">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,255,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Chase | Freq16 | Famous 8" ID="557">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="45">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,255,12,0,13,0,14,0,15,0,16,0,17,229</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Chase | Freq16 | Famous" ID="558">
+   <Speed Duration="140" FadeOut="0" FadeIn="10"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">494</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">495</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">496</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">498</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">500</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">555</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">556</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">557</Step>
   </Function>
   <Monitor ShowLabels="0" DisplayMode="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -12527,11 +12567,24 @@
      <Font>Sys,14,-1,5,75,0,0,0,0,0</Font>
     </Appearance>
    </Label>
-   <Button Icon="" Caption="Haze">
+   <Button Icon="" ID="1146" Caption="Haze">
     <Function ID="491"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <WindowState Width="85" X="1055" Y="265" Height="35" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4293322470</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>PragmataPro,14,-1,5,50,0,0,0,0,0</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" Caption="Famous">
+    <Function ID="558"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="65" X="600" Y="320" Height="30" Visible="True"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
