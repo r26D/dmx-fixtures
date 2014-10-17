@@ -4878,7 +4878,7 @@
    <FixtureVal ID="37">7,0</FixtureVal>
   </Function>
   <Function Type="Chaser" Name="Chase | Micros | Fire" ID="416">
-   <Speed Duration="2030" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="40" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -9502,7 +9502,7 @@
      <Font>PragmataPro,14,-1,5,50,0,0,0,0,0</Font>
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-    <Level HighLimit="255" LowLimit="0" Value="255">
+    <Level HighLimit="255" LowLimit="0" Value="85">
      <Channel Fixture="11">7</Channel>
      <Channel Fixture="12">7</Channel>
      <Channel Fixture="24">7</Channel>
