@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.4</Version>
+  <Author>Brett</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="False">
+    <Input Line="0" Plugin="MIDI" Profile="None"/>
+    <Output Line="1" Plugin="ArtNet"/>
+    <Feedback Line="0" Plugin="MIDI"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="False">
+    <Output Line="1" Plugin="ArtNet"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Sirs-E</Manufacturer>
+   <Model>LED-CON2</Model>
+   <Mode>3 Channel</Mode>
+   <ID>0</ID>
+   <Name>LED-CON2</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Micro Wash RGBW</Model>
+   <Mode>4 Channel</Mode>
+   <ID>1</ID>
+   <Name>Micro Wash RGBW</Name>
+   <Universe>1</Universe>
+   <Address>3</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Function Name="Red" ID="0" Type="Scene">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0</FixtureVal>
+  </Function>
+  <Function Name="Green" ID="1" Type="Scene">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,0</FixtureVal>
+  </Function>
+  <Function Name="Blue" ID="2" Type="Scene">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,0</FixtureVal>
+  </Function>
+  <Function Name="Rainbow" ID="3" Type="Chaser">
+   <Speed Duration="60000" FadeOut="30000" FadeIn="30000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" Hold="0" FadeOut="0" FadeIn="0">0</Step>
+   <Step Number="1" Hold="0" FadeOut="0" FadeIn="0">1</Step>
+   <Step Number="2" Hold="0" FadeOut="0" FadeIn="0">2</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" ID="0" Caption="Rainbow">
+    <Function ID="3"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="False" X="60" Y="70" Width="120" Height="35"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ValueMode="Reduce" SliderMode="Normal" ChannelMode="Intensity"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+
